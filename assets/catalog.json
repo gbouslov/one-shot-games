@@ -1,0 +1,3675 @@
+{
+ "assets": [
+  {
+   "id": "anims-human-0278",
+   "kind": "anims",
+   "name": "Animations for human-0278",
+   "source": "quaternius",
+   "page": "https://opengameart.org/content/universal-animation-library",
+   "licence": "CC0",
+   "authors": [
+    "Quaternius"
+   ],
+   "read": "2026-11-11",
+   "file": "anims/anims-human-0278.bin",
+   "target": "human-0278",
+   "clips": [
+    {
+     "name": "Death01",
+     "seconds": 2.4
+    },
+    {
+     "name": "Hit_Chest",
+     "seconds": 0.33
+    },
+    {
+     "name": "Idle_Loop",
+     "seconds": 2.5
+    },
+    {
+     "name": "Jog_Fwd_Loop",
+     "seconds": 0.93
+    },
+    {
+     "name": "Punch_Cross",
+     "seconds": 1
+    },
+    {
+     "name": "Punch_Jab",
+     "seconds": 0.87
+    },
+    {
+     "name": "Walk_Loop",
+     "seconds": 1.33
+    }
+   ],
+   "bytes": 78327,
+   "inline_kb": 102,
+   "tags": [
+    "anims",
+    "character"
+   ],
+   "grade": "B",
+   "use": "Clips retargeted onto human-0278"
+  },
+  {
+   "id": "anims-human-0411",
+   "kind": "anims",
+   "name": "Animations for human-0411",
+   "source": "quaternius",
+   "page": "https://opengameart.org/content/universal-animation-library",
+   "licence": "CC0",
+   "authors": [
+    "Quaternius"
+   ],
+   "read": "2026-11-11",
+   "file": "anims/anims-human-0411.bin",
+   "target": "human-0411",
+   "clips": [
+    {
+     "name": "Death01",
+     "seconds": 2.4
+    },
+    {
+     "name": "Hit_Chest",
+     "seconds": 0.33
+    },
+    {
+     "name": "Idle_Loop",
+     "seconds": 2.5
+    },
+    {
+     "name": "Jog_Fwd_Loop",
+     "seconds": 0.93
+    },
+    {
+     "name": "Sword_Attack",
+     "seconds": 1.53
+    },
+    {
+     "name": "Sword_Idle",
+     "seconds": 1.67
+    },
+    {
+     "name": "Walk_Loop",
+     "seconds": 1.33
+    }
+   ],
+   "bytes": 90194,
+   "inline_kb": 117,
+   "tags": [
+    "anims",
+    "character"
+   ],
+   "grade": "B",
+   "use": "Clips retargeted onto human-0411"
+  },
+  {
+   "id": "anims-human-0440",
+   "kind": "anims",
+   "name": "Animations for human-0440",
+   "source": "quaternius",
+   "page": "https://opengameart.org/content/universal-animation-library",
+   "licence": "CC0",
+   "authors": [
+    "Quaternius"
+   ],
+   "read": "2026-11-11",
+   "file": "anims/anims-human-0440.bin",
+   "target": "human-0440",
+   "clips": [
+    {
+     "name": "Death01",
+     "seconds": 2.4
+    },
+    {
+     "name": "Hit_Chest",
+     "seconds": 0.33
+    },
+    {
+     "name": "Idle_Loop",
+     "seconds": 2.5
+    },
+    {
+     "name": "Punch_Cross",
+     "seconds": 1
+    },
+    {
+     "name": "Walk_Loop",
+     "seconds": 1.33
+    }
+   ],
+   "bytes": 63787,
+   "inline_kb": 83,
+   "tags": [
+    "anims",
+    "character"
+   ],
+   "grade": "B",
+   "use": "Clips retargeted onto human-0440"
+  },
+  {
+   "id": "music-asian-drums",
+   "kind": "audio",
+   "name": "Asian Drums",
+   "source": "patch",
+   "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100396",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Kevin MacLeod"
+   ],
+   "upstream": "incompetech.com",
+   "patch_id": "incompetech:asian_drums",
+   "credit": "\"Asian Drums\" by Kevin MacLeod (incompetech.com, https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100396), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from MP3 to Ogg Vorbis, credit added to the Ogg comments.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "audio/music-asian-drums.mp3",
+   "seconds": 138.55,
+   "seconds_source": 138.55,
+   "kbps": 56,
+   "bytes": 970283,
+   "inline_kb": 1263,
+   "tags": [
+    "audio",
+    "music",
+    "japanese",
+    "action"
+   ],
+   "grade": "B",
+   "use": "Taiko-style drums for a feudal fight"
+  },
+  {
+   "id": "music-spacial-winds",
+   "kind": "audio",
+   "name": "Spacial Winds",
+   "source": "patch",
+   "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100203",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Kevin MacLeod"
+   ],
+   "upstream": "incompetech.com",
+   "patch_id": "incompetech:horror_spacial_winds",
+   "credit": "\"Spacial Winds\" by Kevin MacLeod (incompetech.com, https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100203), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from MP3 to Ogg Vorbis, credit added to the Ogg comments.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "audio/music-spacial-winds.mp3",
+   "seconds": 146.47,
+   "seconds_source": 146.47,
+   "kbps": 48,
+   "bytes": 879194,
+   "inline_kb": 1145,
+   "tags": [
+    "audio",
+    "music",
+    "horror"
+   ],
+   "grade": "A",
+   "use": "Cold, airy horror bed; loops"
+  },
+  {
+   "id": "fire-flame",
+   "kind": "flipbook",
+   "name": "Rolling flame, 64 frames",
+   "source": "unity-labs",
+   "page": "https://unity.com/blog/engine-platform/free-vfx-image-sequences-flipbooks",
+   "licence": "CC0",
+   "authors": [
+    "Unity Technologies (Unity Labs)"
+   ],
+   "read": "2026-11-11",
+   "file": "flipbooks/fire-flame.webp",
+   "cols": 16,
+   "rows": 4,
+   "frames": 64,
+   "fps": 30,
+   "blend": "additive",
+   "px": [
+    1024,
+    512
+   ],
+   "bytes": 46356,
+   "inline_kb": 60,
+   "tags": [
+    "vfx",
+    "fire"
+   ],
+   "grade": "A",
+   "use": "A burning flame, looping"
+  },
+  {
+   "id": "fireball",
+   "kind": "flipbook",
+   "name": "Fireball burst, 64 frames",
+   "source": "unity-labs",
+   "page": "https://unity.com/blog/engine-platform/free-vfx-image-sequences-flipbooks",
+   "licence": "CC0",
+   "authors": [
+    "Unity Technologies (Unity Labs)"
+   ],
+   "read": "2026-11-11",
+   "file": "flipbooks/fireball.webp",
+   "cols": 8,
+   "rows": 8,
+   "frames": 64,
+   "fps": 30,
+   "blend": "additive",
+   "px": [
+    1024,
+    1024
+   ],
+   "bytes": 99598,
+   "inline_kb": 130,
+   "tags": [
+    "vfx",
+    "fire",
+    "explosion"
+   ],
+   "grade": "A",
+   "use": "A burst of fire, plays once"
+  },
+  {
+   "id": "smoke-wispy",
+   "kind": "flipbook",
+   "name": "Wispy smoke puff, 64 frames",
+   "source": "unity-labs",
+   "page": "https://unity.com/blog/engine-platform/free-vfx-image-sequences-flipbooks",
+   "licence": "CC0",
+   "authors": [
+    "Unity Technologies (Unity Labs)"
+   ],
+   "read": "2026-11-11",
+   "file": "flipbooks/smoke-wispy.webp",
+   "cols": 8,
+   "rows": 8,
+   "frames": 64,
+   "fps": 30,
+   "blend": "alpha",
+   "px": [
+    1024,
+    1024
+   ],
+   "bytes": 354086,
+   "inline_kb": 461,
+   "tags": [
+    "vfx",
+    "smoke"
+   ],
+   "grade": "A",
+   "use": "Rising smoke over fires"
+  },
+  {
+   "id": "asphalt_02",
+   "kind": "material",
+   "name": "Asphalt 02",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/asphalt_02",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:asphalt_02",
+   "credit": "\"Asphalt 02\" by Rob Tuytel (Poly Haven, https://polyhaven.com/a/asphalt_02), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K JPEG maps selected, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "materials/asphalt_02.glb",
+   "tile_m": [
+    3,
+    3
+   ],
+   "bytes": 911656,
+   "inline_kb": 1187,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Weathered cracked asphalt: yards, roads"
+  },
+  {
+   "id": "brick_wall_10",
+   "kind": "material",
+   "name": "Brick Wall 10",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/brick_wall_10",
+   "licence": "CC0",
+   "authors": [
+    "Dimitrios Savva"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:brick_wall_10",
+   "credit": "\"Brick Wall 10\" by Dimitrios Savva (Poly Haven, https://polyhaven.com/a/brick_wall_10), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K JPEG maps selected, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "materials/brick_wall_10.glb",
+   "tile_m": [
+    1.9,
+    1.9
+   ],
+   "bytes": 346496,
+   "inline_kb": 451,
+   "tex": 1024,
+   "tags": [
+    "wall"
+   ],
+   "grade": "A",
+   "use": "Dark red brick wall"
+  },
+  {
+   "id": "Bricks113A",
+   "kind": "material",
+   "name": "Bricks 113 A",
+   "source": "ambientcg",
+   "page": "https://ambientcg.com/view?id=Bricks113A",
+   "licence": "CC0",
+   "authors": [
+    "ambientCG (Lennart Demes)"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/Bricks113A.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 354968,
+   "inline_kb": 462,
+   "tex": 1024,
+   "tags": [
+    "wall"
+   ],
+   "grade": "A",
+   "use": "Brick (ambientCG)"
+  },
+  {
+   "id": "brown_mud_leaves_01",
+   "kind": "material",
+   "name": "Brown Mud Leaves 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/brown_mud_leaves_01",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/brown_mud_leaves_01.glb",
+   "tile_m": [
+    1.3,
+    1.3
+   ],
+   "bytes": 932516,
+   "inline_kb": 1214,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Mud with leaves"
+  },
+  {
+   "id": "Cardboard001",
+   "kind": "material",
+   "name": "Cardboard 001",
+   "source": "patch",
+   "page": "https://ambientcg.com/a/Cardboard001",
+   "licence": "CC0",
+   "authors": [
+    "ambientCG"
+   ],
+   "upstream": "ambientCG",
+   "patch_id": "ambientcg:Cardboard001",
+   "credit": "\"Cardboard 001\" by ambientCG (ambientCG, https://ambientcg.com/a/Cardboard001), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K JPEG maps selected from the zip, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "materials/Cardboard001.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 30968,
+   "inline_kb": 40,
+   "tex": 512,
+   "tags": [
+    "tileable",
+    "pbr",
+    "1",
+    "broken",
+    "brown",
+    "cardboard",
+    "paper",
+    "torn"
+   ],
+   "grade": "B",
+   "use": ""
+  },
+  {
+   "id": "cobblestone_floor_08",
+   "kind": "material",
+   "name": "Cobblestone Floor 08",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/cobblestone_floor_08",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/cobblestone_floor_08.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 573984,
+   "inline_kb": 747,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "old-town"
+   ],
+   "grade": "A",
+   "use": "Cobblestones"
+  },
+  {
+   "id": "concrete_floor_worn_001",
+   "kind": "material",
+   "name": "Concrete Floor Worn 001",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/concrete_floor_worn_001",
+   "licence": "CC0",
+   "authors": [
+    "Dimitrios Savva",
+    "Rico Cilliers"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:concrete_floor_worn_001",
+   "credit": "\"Concrete Floor Worn 001\" by Dimitrios Savva and Rico Cilliers (Poly Haven, https://polyhaven.com/a/concrete_floor_worn_001), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K JPEG maps selected, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "materials/concrete_floor_worn_001.glb",
+   "tile_m": [
+    3,
+    3
+   ],
+   "bytes": 138164,
+   "inline_kb": 180,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "wall",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Plain worn concrete; cheap (135 KB)"
+  },
+  {
+   "id": "Concrete049",
+   "kind": "material",
+   "name": "Concrete 049",
+   "source": "ambientcg",
+   "page": "https://ambientcg.com/view?id=Concrete049",
+   "licence": "CC0",
+   "authors": [
+    "ambientCG (Lennart Demes)"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/Concrete049.glb",
+   "tile_m": [
+    1.1,
+    1.1
+   ],
+   "bytes": 903084,
+   "inline_kb": 1176,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "ground"
+   ],
+   "grade": "A",
+   "use": "Board-formed concrete"
+  },
+  {
+   "id": "container_side",
+   "kind": "material",
+   "name": "Container Side",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/container_side",
+   "licence": "CC0",
+   "authors": [
+    "Dimitrios Savva"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:container_side",
+   "credit": "\"Container Side\" by Dimitrios Savva (Poly Haven, https://polyhaven.com/a/container_side), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K JPEG maps selected, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "materials/container_side.glb",
+   "tile_m": [
+    1.94,
+    1.94
+   ],
+   "bytes": 37636,
+   "inline_kb": 49,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Painted corrugated steel (green); very cheap (37 KB)"
+  },
+  {
+   "id": "corrugated_iron",
+   "kind": "material",
+   "name": "Corrugated Iron",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/corrugated_iron",
+   "licence": "CC0",
+   "authors": [
+    "Jenelle van Heerden",
+    "Dimitrios Savva"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/corrugated_iron.glb",
+   "tile_m": [
+    1.12,
+    1.12
+   ],
+   "bytes": 273576,
+   "inline_kb": 356,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "roof",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Galvanised corrugated sheet"
+  },
+  {
+   "id": "factory_brick",
+   "kind": "material",
+   "name": "Factory Brick",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/factory_brick",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:factory_brick",
+   "credit": "\"Factory Brick\" by Rob Tuytel (Poly Haven, https://polyhaven.com/a/factory_brick), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K JPEG maps selected, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "materials/factory_brick.glb",
+   "tile_m": [
+    1.5,
+    1.5
+   ],
+   "bytes": 794900,
+   "inline_kb": 1035,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Dark factory brick"
+  },
+  {
+   "id": "forrest_ground_01",
+   "kind": "material",
+   "name": "Forest Ground 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/forrest_ground_01",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/forrest_ground_01.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 884632,
+   "inline_kb": 1152,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Forest floor, leaves and twigs"
+  },
+  {
+   "id": "gravel_concrete",
+   "kind": "material",
+   "name": "Gravel Concrete",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/gravel_concrete",
+   "licence": "CC0",
+   "authors": [
+    "Dario Barresi",
+    "Charlotte Baglioni"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/gravel_concrete.glb",
+   "tile_m": [
+    2.12,
+    2.12
+   ],
+   "bytes": 642428,
+   "inline_kb": 836,
+   "tex": 1024,
+   "tags": [
+    "ground"
+   ],
+   "grade": "A",
+   "use": "Exposed-aggregate concrete"
+  },
+  {
+   "id": "Ground111",
+   "kind": "material",
+   "name": "Ground 111",
+   "source": "ambientcg",
+   "page": "https://ambientcg.com/view?id=Ground111",
+   "licence": "CC0",
+   "authors": [
+    "ambientCG (Lennart Demes)"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/Ground111.glb",
+   "tile_m": [
+    2.8,
+    2.8
+   ],
+   "bytes": 788752,
+   "inline_kb": 1027,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Dry ground (ambientCG)"
+  },
+  {
+   "id": "metal_plate",
+   "kind": "material",
+   "name": "Metal Plate",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/metal_plate",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/metal_plate.glb",
+   "tile_m": [
+    0.5,
+    0.5
+   ],
+   "bytes": 386492,
+   "inline_kb": 503,
+   "tex": 1024,
+   "tags": [
+    "floor",
+    "metal"
+   ],
+   "grade": "A",
+   "use": "Diamond tread plate"
+  },
+  {
+   "id": "Metal063",
+   "kind": "material",
+   "name": "Metal 063",
+   "source": "ambientcg",
+   "page": "https://ambientcg.com/view?id=Metal063",
+   "licence": "CC0",
+   "authors": [
+    "ambientCG (Lennart Demes)"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/Metal063.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 285600,
+   "inline_kb": 372,
+   "tex": 1024,
+   "tags": [
+    "metal"
+   ],
+   "grade": "A",
+   "use": "Painted metal (ambientCG)"
+  },
+  {
+   "id": "painted_concrete",
+   "kind": "material",
+   "name": "Painted Concrete",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/painted_concrete",
+   "licence": "CC0",
+   "authors": [
+    "Dario Barresi",
+    "Dimitrios Savva"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/painted_concrete.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 390028,
+   "inline_kb": 508,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "floor"
+   ],
+   "grade": "A",
+   "use": "Green painted concrete, chipped"
+  },
+  {
+   "id": "plastered_wall_02",
+   "kind": "material",
+   "name": "Plastered Wall 02",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/plastered_wall_02",
+   "licence": "CC0",
+   "authors": [
+    "Charlotte Baglioni"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/plastered_wall_02.glb",
+   "tile_m": [
+    2.23,
+    2.23
+   ],
+   "bytes": 206660,
+   "inline_kb": 269,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "interior"
+   ],
+   "grade": "A",
+   "use": "White plaster"
+  },
+  {
+   "id": "red_brick_03",
+   "kind": "material",
+   "name": "Red Brick 03",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/red_brick_03",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/red_brick_03.glb",
+   "tile_m": [
+    1,
+    1
+   ],
+   "bytes": 584480,
+   "inline_kb": 761,
+   "tex": 1024,
+   "tags": [
+    "wall"
+   ],
+   "grade": "A",
+   "use": "Red brick"
+  },
+  {
+   "id": "rock_wall_08",
+   "kind": "material",
+   "name": "Rock Wall 08",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/rock_wall_08",
+   "licence": "CC0",
+   "authors": [
+    "Amal Kumar"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/rock_wall_08.glb",
+   "tile_m": [
+    1.8,
+    1.8
+   ],
+   "bytes": 545968,
+   "inline_kb": 711,
+   "tex": 1024,
+   "tags": [
+    "wall",
+    "cliff"
+   ],
+   "grade": "A",
+   "use": "Stacked stone wall"
+  },
+  {
+   "id": "roof_tiles",
+   "kind": "material",
+   "name": "Roof Tiles",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/roof_tiles",
+   "licence": "CC0",
+   "authors": [
+    "Stephan Seeliger"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/roof_tiles.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 655544,
+   "inline_kb": 854,
+   "tex": 1024,
+   "tags": [
+    "roof",
+    "japanese",
+    "feudal"
+   ],
+   "grade": "A",
+   "use": "Clay roof tiles"
+  },
+  {
+   "id": "rusty_metal_02",
+   "kind": "material",
+   "name": "Rusty Metal 02",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/rusty_metal_02",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/rusty_metal_02.glb",
+   "tile_m": [
+    1,
+    1
+   ],
+   "bytes": 253532,
+   "inline_kb": 330,
+   "tex": 1024,
+   "tags": [
+    "metal"
+   ],
+   "grade": "A",
+   "use": "Rusted painted steel"
+  },
+  {
+   "id": "snow_02",
+   "kind": "material",
+   "name": "Snow 02",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/snow_02",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/snow_02.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 356700,
+   "inline_kb": 464,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "winter"
+   ],
+   "grade": "A",
+   "use": "Trodden snow"
+  },
+  {
+   "id": "sparse_grass",
+   "kind": "material",
+   "name": "Sparse Grass",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/sparse_grass",
+   "licence": "CC0",
+   "authors": [
+    "Amal Kumar"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/sparse_grass.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 805376,
+   "inline_kb": 1049,
+   "tex": 1024,
+   "tags": [
+    "ground",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Patchy grass on dirt"
+  },
+  {
+   "id": "ThatchedRoof001A",
+   "kind": "material",
+   "name": "Thatched Roof 001 A",
+   "source": "ambientcg",
+   "page": "https://ambientcg.com/view?id=ThatchedRoof001A",
+   "licence": "CC0",
+   "authors": [
+    "ambientCG (Lennart Demes)"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/ThatchedRoof001A.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 660476,
+   "inline_kb": 860,
+   "tex": 1024,
+   "tags": [
+    "roof",
+    "japanese",
+    "feudal",
+    "rural"
+   ],
+   "grade": "A",
+   "use": "Thatch for village roofs"
+  },
+  {
+   "id": "weathered_planks",
+   "kind": "material",
+   "name": "Weathered Planks",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/weathered_planks",
+   "licence": "CC0",
+   "authors": [
+    "Dario Barresi",
+    "Dimitrios Savva"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/weathered_planks.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 150272,
+   "inline_kb": 196,
+   "tex": 1024,
+   "tags": [
+    "floor",
+    "wood"
+   ],
+   "grade": "A",
+   "use": "Grey weathered planks: decks, piers"
+  },
+  {
+   "id": "wood_planks_dirt",
+   "kind": "material",
+   "name": "Wood Planks Dirt",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/wood_planks_dirt",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "materials/wood_planks_dirt.glb",
+   "tile_m": [
+    2,
+    2
+   ],
+   "bytes": 255336,
+   "inline_kb": 332,
+   "tex": 1024,
+   "tags": [
+    "wood",
+    "feudal",
+    "floor",
+    "wall"
+   ],
+   "grade": "A",
+   "use": "Weathered planks for walls and floors"
+  },
+  {
+   "id": "ammo_box",
+   "kind": "model",
+   "name": "Ammo Box",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/ammo_box",
+   "licence": "CC0",
+   "authors": [
+    "DanKit"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:ammo_box",
+   "credit": "\"Ammo Box\" by DanKit (Poly Haven, https://polyhaven.com/a/ammo_box), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/ammo_box.glb",
+   "tris": 4382,
+   "tris_source": 4382,
+   "size_m": [
+    0.087,
+    0.177,
+    0.258
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 153920,
+   "inline_kb": 200,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "military",
+    "pickup"
+   ],
+   "grade": "A",
+   "use": "Steel ammo can"
+  },
+  {
+   "id": "antique_katana_01",
+   "kind": "model",
+   "name": "Antique Katana 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/antique_katana_01",
+   "licence": "CC0",
+   "authors": [
+    "Tal Swicegood"
+   ],
+   "read": "2026-11-11",
+   "file": "models/antique_katana_01.glb",
+   "tris": 6670,
+   "tris_source": 6670,
+   "size_m": [
+    0.093,
+    1.003,
+    0.093
+   ],
+   "origin": "centred, base at y=-0.307",
+   "bytes": 358964,
+   "inline_kb": 467,
+   "tex": 1024,
+   "tags": [
+    "weapon",
+    "japanese",
+    "feudal",
+    "melee"
+   ],
+   "grade": "A",
+   "use": "Katana, for a first-person blade"
+  },
+  {
+   "id": "Barrel_01",
+   "kind": "model",
+   "name": "Barrel_01",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/Barrel_01",
+   "licence": "CC0",
+   "authors": [
+    "Jorge Camacho"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:Barrel_01",
+   "credit": "\"Barrel_01\" by Jorge Camacho (Poly Haven, https://polyhaven.com/a/Barrel_01), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/Barrel_01.glb",
+   "tris": 2682,
+   "tris_source": 2682,
+   "size_m": [
+    0.563,
+    0.88,
+    0.563
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 161548,
+   "inline_kb": 210,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Red hazard oil drum"
+  },
+  {
+   "id": "barrel_03",
+   "kind": "model",
+   "name": "Barrel 03",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/barrel_03",
+   "licence": "CC0",
+   "authors": [
+    "Serhii Khromov"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:barrel_03",
+   "credit": "\"Barrel 03\" by Serhii Khromov (Poly Haven, https://polyhaven.com/a/barrel_03), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/barrel_03.glb",
+   "tris": 1473,
+   "tris_source": 1473,
+   "size_m": [
+    0.634,
+    0.93,
+    0.639
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 110252,
+   "inline_kb": 144,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Blue steel drum"
+  },
+  {
+   "id": "barrel_stove",
+   "kind": "model",
+   "name": "Barrel Stove",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/barrel_stove",
+   "licence": "CC0",
+   "authors": [
+    "MP"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:barrel_stove",
+   "credit": "\"Barrel Stove\" by MP (Poly Haven, https://polyhaven.com/a/barrel_stove), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/barrel_stove.glb",
+   "tris": 9216,
+   "tris_source": 9216,
+   "size_m": [
+    0.593,
+    0.856,
+    0.593
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 276548,
+   "inline_kb": 360,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial",
+    "fire"
+   ],
+   "grade": "A",
+   "use": "Rusty drum brazier; add a PointLight inside for fire"
+  },
+  {
+   "id": "baseball_bat",
+   "kind": "model",
+   "name": "Baseball Bat",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/baseball_bat",
+   "licence": "CC0",
+   "authors": [
+    "Enrique Martín"
+   ],
+   "read": "2026-11-11",
+   "file": "models/baseball_bat.glb",
+   "tris": 2672,
+   "tris_source": 2672,
+   "size_m": [
+    0.064,
+    0.913,
+    0.064
+   ],
+   "origin": "centred, base at y=-0.254",
+   "bytes": 251280,
+   "inline_kb": 327,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "melee"
+   ],
+   "grade": "A",
+   "use": "Wooden bat"
+  },
+  {
+   "id": "bolt_action_rifle_7_62",
+   "kind": "model",
+   "name": "Bolt Action Rifle 7.62",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/bolt_action_rifle_7_62",
+   "licence": "CC0",
+   "authors": [
+    "Mateusz Sadek"
+   ],
+   "read": "2026-11-11",
+   "file": "models/bolt_action_rifle_7_62.glb",
+   "tris": 19985,
+   "tris_source": 19985,
+   "size_m": [
+    1.231,
+    0.204,
+    0.067
+   ],
+   "origin": "off-centre, base at y=-0.109",
+   "bytes": 1579148,
+   "inline_kb": 2056,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "weapon",
+    "rifle"
+   ],
+   "grade": "A",
+   "use": "Hero rifle: scoped bolt-action, worn wood. Muzzle +X; see SKILL held recipe"
+  },
+  {
+   "id": "box_cardboard_a01",
+   "kind": "model",
+   "name": "Cardboard box",
+   "source": "patch",
+   "page": "https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/box_cardboard_a01",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "NVIDIA"
+   ],
+   "upstream": "SimReady",
+   "patch_id": "simready:box_cardboard_a01",
+   "credit": "\"Cardboard box\" by NVIDIA (SimReady, https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/box_cardboard_a01), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from USD to glTF, MDL materials dropped for the UsdPreviewSurface textures, ambient occlusion mapped from the ORM texture, mass and one convex hull per part added as OMI_physics_body and OMI_physics_shape, pivot moved to the bottom centre, credit and license added to the file metadata.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/box_cardboard_a01.glb",
+   "tris": 554,
+   "tris_source": 554,
+   "size_m": [
+    0.699,
+    0.51,
+    0.521
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 36956,
+   "inline_kb": 48,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "warehouse",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Taped shipping box, SimReady (CC-BY), 36 KB: cheap filler"
+  },
+  {
+   "id": "box_cardboard_a02",
+   "kind": "model",
+   "name": "Cardboard box",
+   "source": "patch",
+   "page": "https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/box_cardboard_a02",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "NVIDIA"
+   ],
+   "upstream": "SimReady",
+   "patch_id": "simready:box_cardboard_a02",
+   "credit": "\"Cardboard box\" by NVIDIA (SimReady, https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/box_cardboard_a02), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from USD to glTF, MDL materials dropped for the UsdPreviewSurface textures, ambient occlusion mapped from the ORM texture, mass and one convex hull per part added as OMI_physics_body and OMI_physics_shape, pivot moved to the bottom centre, credit and license added to the file metadata.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/box_cardboard_a02.glb",
+   "tris": 554,
+   "tris_source": 554,
+   "size_m": [
+    0.699,
+    0.521,
+    0.51
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 39656,
+   "inline_kb": 52,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "warehouse"
+   ],
+   "grade": "A",
+   "use": "Second shipping box, SimReady (CC-BY)"
+  },
+  {
+   "id": "brass_pot_01",
+   "kind": "model",
+   "name": "Brass Pot 01",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/brass_pot_01",
+   "licence": "CC0",
+   "authors": [
+    "Rico Cilliers"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:brass_pot_01",
+   "credit": "\"Brass Pot 01\" by Rico Cilliers (Poly Haven, https://polyhaven.com/a/brass_pot_01), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/brass_pot_01.glb",
+   "tris": 3760,
+   "tris_source": 3760,
+   "size_m": [
+    0.302,
+    0.291,
+    0.302
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 116320,
+   "inline_kb": 151,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "camp",
+    "interior"
+   ],
+   "grade": "A",
+   "use": "Brass cooking pot"
+  },
+  {
+   "id": "car-concept",
+   "kind": "model",
+   "name": "Car Concept",
+   "source": "khronos",
+   "page": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Eric Chadwick / Darmstadt Graphics Group GmbH"
+   ],
+   "credit": "Car Concept by Eric Chadwick / Darmstadt Graphics Group GmbH, https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: logos removed; paint flake normals removed; wheel spin groups added; windshield wipers omitted; triangle budget weighted toward exterior panels; quantized geometry and WebP textures at 1024 px.",
+   "read": "2026-11-11",
+   "file": "models/car-concept.glb",
+   "tris": 37933,
+   "tris_source": 37933,
+   "size_m": [
+    2.54,
+    1.149,
+    4.357
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 1371920,
+   "inline_kb": 1786,
+   "tex": 1024,
+   "tags": [
+    "car",
+    "racing",
+    "realistic"
+   ],
+   "grade": "B",
+   "use": "B: convincing coupe with interior; simplified reflections. Four steering/Spin groups; +Z forward"
+  },
+  {
+   "id": "cardboard_box_01",
+   "kind": "model",
+   "name": "Cardboard Box 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/cardboard_box_01",
+   "licence": "CC0",
+   "authors": [
+    "Rahul Chaudhary"
+   ],
+   "read": "2026-11-11",
+   "file": "models/cardboard_box_01.glb",
+   "tris": 12000,
+   "tris_source": 16952,
+   "size_m": [
+    0.387,
+    0.342,
+    0.516
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 274464,
+   "inline_kb": 357,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "interior"
+   ],
+   "grade": "A",
+   "use": "Taped cardboard box"
+  },
+  {
+   "id": "cement_bag",
+   "kind": "model",
+   "name": "Cement Bag",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/cement_bag",
+   "licence": "CC0",
+   "authors": [
+    "PierreB3D"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:cement_bag",
+   "credit": "\"Cement Bag\" by PierreB3D (Poly Haven, https://polyhaven.com/a/cement_bag), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/cement_bag.glb",
+   "tris": 844,
+   "tris_source": 844,
+   "size_m": [
+    0.462,
+    0.18,
+    0.7
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 56996,
+   "inline_kb": 74,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Cement sack, stackable (0.18 m)"
+  },
+  {
+   "id": "chochin-lantern",
+   "kind": "model",
+   "name": "Red chochin lantern with brass rings",
+   "source": "file",
+   "page": "https://sketchfab.com/3d-models/20bcc5d20f2847f88aef3a267275d16c",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "DeepDown"
+   ],
+   "read": "2026-11-11",
+   "file": "models/chochin-lantern.glb",
+   "tris": 2750,
+   "tris_source": 2750,
+   "size_m": [
+    0.651,
+    1,
+    0.651
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 250372,
+   "inline_kb": 326,
+   "tex": 1024,
+   "tags": [
+    "japanese",
+    "feudal",
+    "light"
+   ],
+   "grade": "B",
+   "use": "Hanging red lantern"
+  },
+  {
+   "id": "city-kit-industrial_shipping-container-a",
+   "kind": "model",
+   "name": "Shipping container a",
+   "source": "patch",
+   "page": "https://kenney.nl/assets/city-kit-industrial",
+   "licence": "CC0",
+   "authors": [
+    "Kenney"
+   ],
+   "upstream": "Kenney",
+   "patch_id": "kenney:city-kit-industrial/shipping-container-a.glb",
+   "credit": "\"Shipping container a\" by Kenney (Kenney, https://kenney.nl/assets/city-kit-industrial), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: re-packed GLB, pivot moved to the bottom centre, credit added to the file, textures embedded, scaled ×5 to real-world size (calibrated on its road signs (0.47 units; a sign post is about 2.4 m)).",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/city-kit-industrial_shipping-container-a.glb",
+   "tris": 402,
+   "tris_source": 402,
+   "size_m": [
+    1.863,
+    1.74,
+    4.113
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 17032,
+   "inline_kb": 22,
+   "tex": 512,
+   "tags": [
+    "stylised",
+    "prop",
+    "kenney"
+   ],
+   "grade": "B",
+   "use": "Kenney low-poly shipping container (stylised games)"
+  },
+  {
+   "id": "concrete_road_barrier",
+   "kind": "model",
+   "name": "Concrete Road Barrier",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/concrete_road_barrier",
+   "licence": "CC0",
+   "authors": [
+    "Amal Kumar"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:concrete_road_barrier",
+   "credit": "\"Concrete Road Barrier\" by Amal Kumar (Poly Haven, https://polyhaven.com/a/concrete_road_barrier), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/concrete_road_barrier.glb",
+   "tris": 12000,
+   "tris_source": 60928,
+   "size_m": [
+    1.545,
+    0.831,
+    0.639
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 302932,
+   "inline_kb": 394,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "urban",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Jersey barrier, 1.5 m: the cover block"
+  },
+  {
+   "id": "coupeox",
+   "kind": "model",
+   "name": "Coupeox futuristic vehicle",
+   "source": "objaverse-clean",
+   "page": "https://sketchfab.com/3d-models/f4eeef5af2804647b933207303461e84",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "koleos3d"
+   ],
+   "credit": "Coupeox futuristic vehicle by koleos3d, https://sketchfab.com/3d-models/f4eeef5af2804647b933207303461e84, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: mesh simplified; quantized geometry and WebP textures at 1024 px.",
+   "read": "2026-11-11",
+   "file": "models/coupeox.glb",
+   "tris": 31981,
+   "tris_source": 46672,
+   "size_m": [
+    1,
+    0.27,
+    0.505
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 494644,
+   "inline_kb": 644,
+   "tex": 1024,
+   "tags": [
+    "car",
+    "racing",
+    "realistic"
+   ],
+   "grade": "B",
+   "use": "B: distinctive coupe silhouette; plain opaque glass. Wheels grouped by material; scale x4.8"
+  },
+  {
+   "id": "crowbar_01",
+   "kind": "model",
+   "name": "Crowbar 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/crowbar_01",
+   "licence": "CC0",
+   "authors": [
+    "Alexander Otterbeck"
+   ],
+   "read": "2026-11-11",
+   "file": "models/crowbar_01.glb",
+   "tris": 2300,
+   "tris_source": 2300,
+   "size_m": [
+    0.04,
+    0.555,
+    0.128
+   ],
+   "origin": "off-centre, base at y=-0.296",
+   "bytes": 263024,
+   "inline_kb": 342,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "melee",
+    "tool"
+   ],
+   "grade": "A",
+   "use": "Crowbar, vertical"
+  },
+  {
+   "id": "dead_tree_trunk_02",
+   "kind": "model",
+   "name": "Dead Tree Trunk 02",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/dead_tree_trunk_02",
+   "licence": "CC0",
+   "authors": [
+    "Jenelle van Heerden",
+    "Rico Cilliers"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:dead_tree_trunk_02",
+   "credit": "\"Dead Tree Trunk 02\" by Jenelle van Heerden and Rico Cilliers (Poly Haven, https://polyhaven.com/a/dead_tree_trunk_02), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/dead_tree_trunk_02.glb",
+   "tris": 11996,
+   "tris_source": 83128,
+   "size_m": [
+    4.051,
+    1.054,
+    1.053
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 403348,
+   "inline_kb": 525,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "nature",
+    "camp"
+   ],
+   "grade": "A",
+   "use": "Fallen trunk, 3 m: a seat by a fire, cover in a forest"
+  },
+  {
+   "id": "exterior_aircon_unit",
+   "kind": "model",
+   "name": "Exterior Aircon Unit",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/exterior_aircon_unit",
+   "licence": "CC0",
+   "authors": [
+    "Monsta3D"
+   ],
+   "read": "2026-11-11",
+   "file": "models/exterior_aircon_unit.glb",
+   "tris": 11996,
+   "tris_source": 18986,
+   "size_m": [
+    1.8,
+    0.928,
+    0.374
+   ],
+   "origin": "off-centre, base at y=-0.32",
+   "bytes": 518484,
+   "inline_kb": 675,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "urban",
+    "wall"
+   ],
+   "grade": "A",
+   "use": "Wall AC unit. Two variants: keep \"rusted\" or drop \"rusted\""
+  },
+  {
+   "id": "fern_02",
+   "kind": "model",
+   "name": "Fern 02",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/fern_02",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel",
+    "Rico Cilliers"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:fern_02",
+   "credit": "\"Fern 02\" by Rob Tuytel and Rico Cilliers (Poly Haven, https://polyhaven.com/a/fern_02), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, alpha maps restored, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/fern_02.glb",
+   "tris": 6232,
+   "tris_source": 6232,
+   "size_m": [
+    1.973,
+    0.428,
+    1.724
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 231032,
+   "inline_kb": 301,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "nature",
+    "plant"
+   ],
+   "grade": "B",
+   "use": "Fern clump (alpha-cut leaves)"
+  },
+  {
+   "id": "fire_hydrant",
+   "kind": "model",
+   "name": "Fire Hydrant",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/fire_hydrant",
+   "licence": "CC0",
+   "authors": [
+    "Gonçalo Felício"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:fire_hydrant",
+   "credit": "\"Fire Hydrant\" by Gonçalo Felício (Poly Haven, https://polyhaven.com/a/fire_hydrant), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/fire_hydrant.glb",
+   "tris": 12670,
+   "tris_source": 86316,
+   "size_m": [
+    0.875,
+    0.799,
+    0.318
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 309208,
+   "inline_kb": 403,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Hydrant. Two variants: keep \"aged\" or drop \"aged\""
+  },
+  {
+   "id": "folding_wooden_stool",
+   "kind": "model",
+   "name": "Folding Wooden Stool",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/folding_wooden_stool",
+   "licence": "CC0",
+   "authors": [
+    "Ulan Cabanilla"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:folding_wooden_stool",
+   "credit": "\"Folding Wooden Stool\" by Ulan Cabanilla (Poly Haven, https://polyhaven.com/a/folding_wooden_stool), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/folding_wooden_stool.glb",
+   "tris": 6324,
+   "tris_source": 6324,
+   "size_m": [
+    0.528,
+    0.442,
+    0.547
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 226852,
+   "inline_kb": 295,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "camp",
+    "interior"
+   ],
+   "grade": "A",
+   "use": "Folding wooden stool"
+  },
+  {
+   "id": "garden_gloves_01",
+   "kind": "model",
+   "name": "Garden Gloves 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/garden_gloves_01",
+   "licence": "CC0",
+   "authors": [
+    "Satyaki Mandal"
+   ],
+   "read": "2026-11-11",
+   "file": "models/garden_gloves_01.glb",
+   "tris": 6822,
+   "tris_source": 6822,
+   "size_m": [
+    0.227,
+    0.076,
+    0.299
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 748548,
+   "inline_kb": 975,
+   "tex": 1024,
+   "tags": [
+    "prop",
+    "gloves"
+   ],
+   "grade": "B",
+   "use": "A pair of work gloves lying flat (a prop, not FP hands)"
+  },
+  {
+   "id": "gourami-saloon",
+   "kind": "model",
+   "name": "Gourami - Luxury Saloon",
+   "source": "objaverse-clean",
+   "page": "https://sketchfab.com/3d-models/bf29aca039c447ab913608e3f6818875",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Fishboe"
+   ],
+   "credit": "Gourami - Luxury Saloon by Fishboe, https://sketchfab.com/3d-models/bf29aca039c447ab913608e3f6818875, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: display floor removed; quantized geometry and WebP textures at 1024 px.",
+   "read": "2026-11-11",
+   "file": "models/gourami-saloon.glb",
+   "tris": 34298,
+   "tris_source": 107024,
+   "size_m": [
+    0.154,
+    0.108,
+    0.406
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 804392,
+   "inline_kb": 1047,
+   "tex": 1024,
+   "tags": [
+    "car",
+    "racing",
+    "realistic"
+   ],
+   "grade": "B",
+   "use": "B: convincing luxury silhouette and wheels; glossy panels. Wheels merged; scale x12.5"
+  },
+  {
+   "id": "hatchet",
+   "kind": "model",
+   "name": "Hatchet",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/hatchet",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock",
+    "Ulan Cabanilla"
+   ],
+   "read": "2026-11-11",
+   "file": "models/hatchet.glb",
+   "tris": 5250,
+   "tris_source": 5250,
+   "size_m": [
+    0.026,
+    0.289,
+    0.104
+   ],
+   "origin": "off-centre, base at y=-0.062",
+   "bytes": 323476,
+   "inline_kb": 421,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "weapon",
+    "melee",
+    "tool"
+   ],
+   "grade": "A",
+   "use": "One-hand axe, head up, edge +Z"
+  },
+  {
+   "id": "human-0278",
+   "kind": "model",
+   "name": "Man in work overalls",
+   "source": "patch",
+   "page": "https://github.com/makehumancommunity/mpfb2/tree/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e",
+   "licence": "CC0",
+   "authors": [
+    "MakeHuman team",
+    "MargaretToigo"
+   ],
+   "upstream": "MakeHuman (MPFB)",
+   "patch_id": "mpfb:human-0278",
+   "credit": "Man in work overalls by Patch, made with MPFB from CC0 MakeHuman parts by MakeHuman team and MargaretToigo (https://github.com/makehumancommunity/mpfb2/tree/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e), CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: skin under clothes removed, game-engine skeleton, re-packed GLB, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/human-0278.glb",
+   "tris": 13993,
+   "tris_source": 34316,
+   "size_m": [
+    1.129,
+    1.762,
+    0.474
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 681008,
+   "inline_kb": 887,
+   "tex": 512,
+   "tags": [
+    "character",
+    "enemy"
+   ],
+   "grade": "B",
+   "use": "Man in work overalls, rigged"
+  },
+  {
+   "id": "human-0411",
+   "kind": "model",
+   "name": "Middle-aged East Asian man in work overalls",
+   "source": "patch",
+   "page": "https://github.com/makehumancommunity/mpfb2/tree/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e",
+   "licence": "CC0",
+   "authors": [
+    "MakeHuman team"
+   ],
+   "upstream": "MakeHuman (MPFB)",
+   "patch_id": "mpfb:human-0411",
+   "credit": "Middle-aged East Asian man in work overalls by Patch, made with MPFB from CC0 MakeHuman parts by MakeHuman team (https://github.com/makehumancommunity/mpfb2/tree/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e), CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: skin under clothes removed, game-engine skeleton, re-packed GLB, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/human-0411.glb",
+   "tris": 13992,
+   "tris_source": 31504,
+   "size_m": [
+    1.056,
+    1.693,
+    0.455
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 516836,
+   "inline_kb": 673,
+   "tex": 512,
+   "tags": [
+    "character",
+    "enemy",
+    "feudal"
+   ],
+   "grade": "B",
+   "use": "East Asian man, rigged; ronin body under coded armour"
+  },
+  {
+   "id": "human-0440",
+   "kind": "model",
+   "name": "Middle-aged heavyset man in work overalls",
+   "source": "patch",
+   "page": "https://github.com/makehumancommunity/mpfb2/tree/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e",
+   "licence": "CC0",
+   "authors": [
+    "MakeHuman team",
+    "bobby_03"
+   ],
+   "upstream": "MakeHuman (MPFB)",
+   "patch_id": "mpfb:human-0440",
+   "credit": "Middle-aged heavyset man in work overalls by Patch, made with MPFB from CC0 MakeHuman parts by MakeHuman team and bobby_03 (https://github.com/makehumancommunity/mpfb2/tree/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e), CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: skin under clothes removed, game-engine skeleton, re-packed GLB, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/human-0440.glb",
+   "tris": 13991,
+   "tris_source": 33516,
+   "size_m": [
+    1.082,
+    1.734,
+    0.471
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 713196,
+   "inline_kb": 929,
+   "tex": 512,
+   "tags": [
+    "character",
+    "enemy"
+   ],
+   "grade": "B",
+   "use": "Heavyset man in overalls, rigged"
+  },
+  {
+   "id": "khronos_lantern",
+   "kind": "model",
+   "name": "Lantern (Khronos sample)",
+   "source": "khronos",
+   "page": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Lantern",
+   "licence": "CC0",
+   "authors": [
+    "Microsoft"
+   ],
+   "read": "2026-11-11",
+   "file": "models/khronos_lantern.glb",
+   "tris": 5394,
+   "tris_source": 5394,
+   "size_m": [
+    15.491,
+    25.664,
+    4.63
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 224328,
+   "inline_kb": 292,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "light"
+   ],
+   "grade": "B",
+   "use": "Hanging lantern on a post (Khronos sample)"
+  },
+  {
+   "id": "khronos_water_bottle",
+   "kind": "model",
+   "name": "Water bottle (Khronos sample)",
+   "source": "khronos",
+   "page": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/WaterBottle",
+   "licence": "CC0",
+   "authors": [
+    "Microsoft"
+   ],
+   "read": "2026-11-11",
+   "file": "models/khronos_water_bottle.glb",
+   "tris": 4510,
+   "tris_source": 4510,
+   "size_m": [
+    0.109,
+    0.26,
+    0.109
+   ],
+   "origin": "centred, base at y=-0.13",
+   "bytes": 118400,
+   "inline_kb": 154,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "pickup"
+   ],
+   "grade": "B",
+   "use": "Steel water bottle (Khronos sample)"
+  },
+  {
+   "id": "korean_fire_extinguisher_01",
+   "kind": "model",
+   "name": "Korean Fire Extinguisher 01",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/korean_fire_extinguisher_01",
+   "licence": "CC0",
+   "authors": [
+    "UM JOORIN"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:korean_fire_extinguisher_01",
+   "credit": "\"Korean Fire Extinguisher 01\" by UM JOORIN (Poly Haven, https://polyhaven.com/a/korean_fire_extinguisher_01), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, alpha maps restored, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/korean_fire_extinguisher_01.glb",
+   "tris": 9913,
+   "tris_source": 9913,
+   "size_m": [
+    0.28,
+    0.659,
+    0.367
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 386072,
+   "inline_kb": 503,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "interior"
+   ],
+   "grade": "A",
+   "use": "Fire extinguisher on a stand"
+  },
+  {
+   "id": "machete",
+   "kind": "model",
+   "name": "Machete",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/machete",
+   "licence": "CC0",
+   "authors": [
+    "Ulan Cabanilla"
+   ],
+   "read": "2026-11-11",
+   "file": "models/machete.glb",
+   "tris": 3032,
+   "tris_source": 3032,
+   "size_m": [
+    0.044,
+    0.755,
+    0.061
+   ],
+   "origin": "off-centre, base at y=-0.214",
+   "bytes": 534040,
+   "inline_kb": 695,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "weapon",
+    "melee"
+   ],
+   "grade": "A",
+   "use": "Long blade, vertical"
+  },
+  {
+   "id": "medical_box",
+   "kind": "model",
+   "name": "Medical Box",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/medical_box",
+   "licence": "CC0",
+   "authors": [
+    "Ulan Cabanilla"
+   ],
+   "read": "2026-11-11",
+   "file": "models/medical_box.glb",
+   "tris": 3718,
+   "tris_source": 3718,
+   "size_m": [
+    0.525,
+    0.098,
+    0.35
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 178140,
+   "inline_kb": 232,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "pickup"
+   ],
+   "grade": "A",
+   "use": "Green first-aid case: the health pickup"
+  },
+  {
+   "id": "medieval-hexagon_decoration_props_barrel",
+   "kind": "model",
+   "name": "Barrel",
+   "source": "patch",
+   "page": "https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/blob/84fa4e91af6a88989be7c99e0891cede11f2ca38/addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/props/barrel.gltf",
+   "licence": "CC0",
+   "authors": [
+    "Kay Lousberg"
+   ],
+   "upstream": "KayKit",
+   "patch_id": "kaykit:medieval-hexagon/decoration/props/barrel.gltf",
+   "credit": "\"Barrel\" by Kay Lousberg (KayKit, https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/blob/84fa4e91af6a88989be7c99e0891cede11f2ca38/addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/props/barrel.gltf), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: re-packed GLB, pivot moved to the bottom centre, credit added to the file, scaled ×6 to real-world size (calibrated on its cottage (0.93 units to the ridge, 5.6 m) and trees (1.2 units, 7 m)).",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/medieval-hexagon_decoration_props_barrel.glb",
+   "tris": 240,
+   "tris_source": 240,
+   "size_m": [
+    1.209,
+    1.27,
+    1.209
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 16072,
+   "inline_kb": 21,
+   "tex": 512,
+   "tags": [
+    "stylised",
+    "prop",
+    "kaykit"
+   ],
+   "grade": "B",
+   "use": "KayKit low-poly barrel (stylised games)"
+  },
+  {
+   "id": "metal_jerrycan",
+   "kind": "model",
+   "name": "Metal Jerrycan",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/metal_jerrycan",
+   "licence": "CC0",
+   "authors": [
+    "Sean Buckley"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:metal_jerrycan",
+   "credit": "\"Metal Jerrycan\" by Sean Buckley (Poly Haven, https://polyhaven.com/a/metal_jerrycan), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/metal_jerrycan.glb",
+   "tris": 11999,
+   "tris_source": 20022,
+   "size_m": [
+    0.35,
+    0.455,
+    0.172
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 333448,
+   "inline_kb": 434,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial",
+    "pickup"
+   ],
+   "grade": "A",
+   "use": "Red steel fuel can"
+  },
+  {
+   "id": "metal_tool_chest",
+   "kind": "model",
+   "name": "Metal Tool Chest",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/metal_tool_chest",
+   "licence": "CC0",
+   "authors": [
+    "Yann Kervran",
+    "John Hutcheson"
+   ],
+   "read": "2026-11-11",
+   "file": "models/metal_tool_chest.glb",
+   "tris": 11994,
+   "tris_source": 13360,
+   "size_m": [
+    0.685,
+    0.652,
+    0.407
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 362144,
+   "inline_kb": 472,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "workshop"
+   ],
+   "grade": "A",
+   "use": "Red tool chest"
+  },
+  {
+   "id": "metal_trash_can",
+   "kind": "model",
+   "name": "Metal Trash Can",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/metal_trash_can",
+   "licence": "CC0",
+   "authors": [
+    "GurJas Studios"
+   ],
+   "read": "2026-11-11",
+   "file": "models/metal_trash_can.glb",
+   "tris": 11992,
+   "tris_source": 13960,
+   "size_m": [
+    1.778,
+    0.906,
+    0.556
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 483392,
+   "inline_kb": 629,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Galvanised bin. Two variants: keep \"rust\" or drop \"rust\""
+  },
+  {
+   "id": "offroad-buggy",
+   "kind": "model",
+   "name": "Buggy 2",
+   "source": "objaverse-clean",
+   "page": "https://sketchfab.com/3d-models/983dc960e4c34a2688456b3c31821cd9",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Rzyas"
+   ],
+   "credit": "Buggy 2 by Rzyas, https://sketchfab.com/3d-models/983dc960e4c34a2688456b3c31821cd9, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: mesh simplified; quantized geometry and WebP textures at 1024 px.",
+   "read": "2026-11-11",
+   "file": "models/offroad-buggy.glb",
+   "tris": 32473,
+   "tris_source": 36214,
+   "size_m": [
+    0.486,
+    0.367,
+    1
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 2247288,
+   "inline_kb": 2926,
+   "tex": 1024,
+   "tags": [
+    "car",
+    "racing",
+    "realistic"
+   ],
+   "grade": "B",
+   "use": "B: detailed cage and weathered tyres; angular tubing. Wheels merged in tyre mesh; scale x3.2"
+  },
+  {
+   "id": "old_military_crate",
+   "kind": "model",
+   "name": "Old Military Crate",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/old_military_crate",
+   "licence": "CC0",
+   "authors": [
+    "Jack Mava"
+   ],
+   "read": "2026-11-11",
+   "file": "models/old_military_crate.glb",
+   "tris": 10476,
+   "tris_source": 10476,
+   "size_m": [
+    1.815,
+    0.301,
+    0.976
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 313508,
+   "inline_kb": 408,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "military",
+    "crate"
+   ],
+   "grade": "A",
+   "use": "Flat military crate. Two variants: keep \"_a\" (closed) / \"_b\" (open)"
+  },
+  {
+   "id": "old_tyre",
+   "kind": "model",
+   "name": "Old Tyre",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/old_tyre",
+   "licence": "CC0",
+   "authors": [
+    "MP"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:old_tyre",
+   "credit": "\"Old Tyre\" by MP (Poly Haven, https://polyhaven.com/a/old_tyre), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/old_tyre.glb",
+   "tris": 2880,
+   "tris_source": 2880,
+   "size_m": [
+    0.6,
+    0.6,
+    0.165
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 154592,
+   "inline_kb": 201,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Worn tyre; stack flat with rot [-PI/2,0,0]"
+  },
+  {
+   "id": "pallet_a01",
+   "kind": "model",
+   "name": "Pallet",
+   "source": "patch",
+   "page": "https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/pallet_a01",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "NVIDIA"
+   ],
+   "upstream": "SimReady",
+   "patch_id": "simready:pallet_a01",
+   "credit": "\"Pallet\" by NVIDIA (SimReady, https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/pallet_a01), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from USD to glTF, MDL materials dropped for the UsdPreviewSurface textures, ambient occlusion mapped from the ORM texture, mass and one convex hull per part added as OMI_physics_body and OMI_physics_shape, pivot moved to the bottom centre, credit and license added to the file metadata.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/pallet_a01.glb",
+   "tris": 2052,
+   "tris_source": 2052,
+   "size_m": [
+    1.204,
+    0.209,
+    0.8
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 129472,
+   "inline_kb": 169,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "warehouse"
+   ],
+   "grade": "A",
+   "use": "Euro pallet, SimReady (CC-BY)"
+  },
+  {
+   "id": "pallet_b01",
+   "kind": "model",
+   "name": "Pallet",
+   "source": "patch",
+   "page": "https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/pallet_b01",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "NVIDIA"
+   ],
+   "upstream": "SimReady",
+   "patch_id": "simready:pallet_b01",
+   "credit": "\"Pallet\" by NVIDIA (SimReady, https://huggingface.co/datasets/nvidia/simready-assets/tree/524747d9b5e1f21b5b18b56041788c01d745f1a1/pallet_b01), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from USD to glTF, MDL materials dropped for the UsdPreviewSurface textures, ambient occlusion mapped from the ORM texture, mass and one convex hull per part added as OMI_physics_body and OMI_physics_shape, pivot moved to the bottom centre, credit and license added to the file metadata.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/pallet_b01.glb",
+   "tris": 2160,
+   "tris_source": 2160,
+   "size_m": [
+    1.21,
+    0.209,
+    1.003
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 128512,
+   "inline_kb": 167,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "warehouse"
+   ],
+   "grade": "A",
+   "use": "Square pallet, SimReady (CC-BY); stack boxes on it at y 0.21"
+  },
+  {
+   "id": "paper-lantern",
+   "kind": "model",
+   "name": "Paper lantern with a brushed character",
+   "source": "file",
+   "page": "https://sketchfab.com/3d-models/4450069fee444ae0920aa5babd5d9239",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Abel Gamero"
+   ],
+   "read": "2026-11-11",
+   "file": "models/paper-lantern.glb",
+   "tris": 1312,
+   "tris_source": 1312,
+   "size_m": [
+    0.662,
+    1,
+    0.662
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 65828,
+   "inline_kb": 86,
+   "tex": 1024,
+   "tags": [
+    "japanese",
+    "feudal",
+    "light"
+   ],
+   "grade": "B",
+   "use": "Hanging paper lantern"
+  },
+  {
+   "id": "plastic_crate_01",
+   "kind": "model",
+   "name": "Plastic Crate 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/plastic_crate_01",
+   "licence": "CC0",
+   "authors": [
+    "PierreB3D"
+   ],
+   "read": "2026-11-11",
+   "file": "models/plastic_crate_01.glb",
+   "tris": 12000,
+   "tris_source": 18320,
+   "size_m": [
+    0.298,
+    0.264,
+    0.408
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 527912,
+   "inline_kb": 687,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "interior"
+   ],
+   "grade": "A",
+   "use": "Red milk crate (heavy for its size)"
+  },
+  {
+   "id": "portable_generator",
+   "kind": "model",
+   "name": "Portable Generator",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/portable_generator",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:portable_generator",
+   "credit": "\"Portable Generator\" by James Ray Cock (Poly Haven, https://polyhaven.com/a/portable_generator), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, alpha maps restored, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/portable_generator.glb",
+   "tris": 12025,
+   "tris_source": 26419,
+   "size_m": [
+    0.818,
+    0.577,
+    0.564
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 553328,
+   "inline_kb": 720,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Yellow site generator"
+  },
+  {
+   "id": "propane_tank",
+   "kind": "model",
+   "name": "Propane Tank",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/propane_tank",
+   "licence": "CC0",
+   "authors": [
+    "Slinc"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:propane_tank",
+   "credit": "\"Propane Tank\" by Slinc (Poly Haven, https://polyhaven.com/a/propane_tank), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/propane_tank.glb",
+   "tris": 5238,
+   "tris_source": 5238,
+   "size_m": [
+    0.337,
+    0.554,
+    0.337
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 195380,
+   "inline_kb": 254,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Red gas bottle"
+  },
+  {
+   "id": "rock_07",
+   "kind": "model",
+   "name": "Rock 07",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/rock_07",
+   "licence": "CC0",
+   "authors": [
+    "Jenelle van Heerden"
+   ],
+   "read": "2026-11-11",
+   "file": "models/rock_07.glb",
+   "tris": 12000,
+   "tris_source": 14844,
+   "size_m": [
+    0.169,
+    0.144,
+    0.32
+   ],
+   "origin": "off-centre, base at y=0",
+   "bytes": 314644,
+   "inline_kb": 410,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "nature",
+    "rock"
+   ],
+   "grade": "A",
+   "use": "Hand-size stone; scale up 5-15x for boulders"
+  },
+  {
+   "id": "security_light",
+   "kind": "model",
+   "name": "Security Light",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/security_light",
+   "licence": "CC0",
+   "authors": [
+    "Maximilian Schuster"
+   ],
+   "read": "2026-11-11",
+   "file": "models/security_light.glb",
+   "tris": 4668,
+   "tris_source": 4668,
+   "size_m": [
+    0.323,
+    0.531,
+    0.417
+   ],
+   "origin": "off-centre, base at y=-0.359",
+   "bytes": 212348,
+   "inline_kb": 276,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "wall",
+    "light"
+   ],
+   "grade": "A",
+   "use": "Wall floodlight housing"
+  },
+  {
+   "id": "service_pistol",
+   "kind": "model",
+   "name": "Service Pistol",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/service_pistol",
+   "licence": "CC0",
+   "authors": [
+    "Mateusz Sadek"
+   ],
+   "read": "2026-11-11",
+   "file": "models/service_pistol.glb",
+   "tris": 19993,
+   "tris_source": 25064,
+   "size_m": [
+    0.302,
+    0.281,
+    0.032
+   ],
+   "origin": "off-centre, base at y=-0.052",
+   "bytes": 930352,
+   "inline_kb": 1211,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "weapon",
+    "pistol"
+   ],
+   "grade": "A",
+   "use": "Sidearm. Two variants: keep /_a$/ (wood grips) or /_b$/ (taped). Muzzle +X"
+  },
+  {
+   "id": "sledgehammer_01",
+   "kind": "model",
+   "name": "Sledgehammer 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/sledgehammer_01",
+   "licence": "CC0",
+   "authors": [
+    "Dylan Guzman"
+   ],
+   "read": "2026-11-11",
+   "file": "models/sledgehammer_01.glb",
+   "tris": 2596,
+   "tris_source": 2596,
+   "size_m": [
+    0.208,
+    1.006,
+    0.09
+   ],
+   "origin": "centred, base at y=-0.747",
+   "bytes": 263048,
+   "inline_kb": 343,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "melee",
+    "tool"
+   ],
+   "grade": "A",
+   "use": "Two-hand hammer, 1 m"
+  },
+  {
+   "id": "steel_frame_shelves_01",
+   "kind": "model",
+   "name": "Steel Frame Shelves 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/steel_frame_shelves_01",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock"
+   ],
+   "read": "2026-11-11",
+   "file": "models/steel_frame_shelves_01.glb",
+   "tris": 4348,
+   "tris_source": 4348,
+   "size_m": [
+    10.974,
+    21.405,
+    5.021
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 146188,
+   "inline_kb": 190,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "interior",
+    "workshop"
+   ],
+   "grade": "A",
+   "use": "Steel shelving, 2.1 m"
+  },
+  {
+   "id": "stick_grenade",
+   "kind": "model",
+   "name": "Stick Grenade",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/stick_grenade",
+   "licence": "CC0",
+   "authors": [
+    "singaii"
+   ],
+   "read": "2026-11-11",
+   "file": "models/stick_grenade.glb",
+   "tris": 4612,
+   "tris_source": 4612,
+   "size_m": [
+    0.081,
+    0.379,
+    0.081
+   ],
+   "origin": "centred, base at y=-0.16",
+   "bytes": 362144,
+   "inline_kb": 472,
+   "tex": 1024,
+   "tags": [
+    "held",
+    "weapon",
+    "thrown"
+   ],
+   "grade": "A",
+   "use": "Stick grenade, thrown item"
+  },
+  {
+   "id": "street_lamp_01",
+   "kind": "model",
+   "name": "Street Lamp 01",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/street_lamp_01",
+   "licence": "CC0",
+   "authors": [
+    "Josh Dean"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:street_lamp_01",
+   "credit": "\"Street Lamp 01\" by Josh Dean (Poly Haven, https://polyhaven.com/a/street_lamp_01), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, alpha maps restored, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/street_lamp_01.glb",
+   "tris": 12133,
+   "tris_source": 30610,
+   "size_m": [
+    0.704,
+    3.871,
+    0.386
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 317120,
+   "inline_kb": 413,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "urban",
+    "light"
+   ],
+   "grade": "A",
+   "use": "Cast-iron street lamp, 3.9 m; add a PointLight at y 3.6"
+  },
+  {
+   "id": "torii-gate",
+   "kind": "model",
+   "name": "Torii gate, red lacquer",
+   "source": "file",
+   "page": "https://sketchfab.com/3d-models/2027a248de1b4b70985ff97e708fb50d",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Sahir Virmani"
+   ],
+   "read": "2026-11-11",
+   "file": "models/torii-gate.glb",
+   "tris": 1252,
+   "tris_source": 1252,
+   "size_m": [
+    0.075,
+    0.726,
+    1
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 163320,
+   "inline_kb": 213,
+   "tex": 1024,
+   "tags": [
+    "japanese",
+    "feudal",
+    "architecture"
+   ],
+   "grade": "B",
+   "use": "A shrine gate"
+  },
+  {
+   "id": "tree_stump_01",
+   "kind": "model",
+   "name": "Tree Stump 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/tree_stump_01",
+   "licence": "CC0",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "read": "2026-11-11",
+   "file": "models/tree_stump_01.glb",
+   "tris": 12000,
+   "tris_source": 41046,
+   "size_m": [
+    1.426,
+    0.572,
+    1.59
+   ],
+   "origin": "off-centre, base at y=-0.193",
+   "bytes": 413404,
+   "inline_kb": 538,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Cut stump with roots, 1.5 m"
+  },
+  {
+   "id": "utility_box_02",
+   "kind": "model",
+   "name": "Utility Box 02",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/utility_box_02",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:utility_box_02",
+   "credit": "\"Utility Box 02\" by James Ray Cock (Poly Haven, https://polyhaven.com/a/utility_box_02), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/utility_box_02.glb",
+   "tris": 6268,
+   "tris_source": 6268,
+   "size_m": [
+    0.92,
+    1.12,
+    0.432
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 208144,
+   "inline_kb": 271,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "urban",
+    "industrial"
+   ],
+   "grade": "A",
+   "use": "Green electrical cabinet, against a wall"
+  },
+  {
+   "id": "v12-goblin",
+   "kind": "model",
+   "name": "Fictional supercar - V12 Goblin",
+   "source": "objaverse-clean",
+   "page": "https://sketchfab.com/3d-models/0a20e49ad5774d778567cb5c3f345786",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "ollitei"
+   ],
+   "credit": "Fictional supercar - V12 Goblin by ollitei, https://sketchfab.com/3d-models/0a20e49ad5774d778567cb5c3f345786, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: display shadow and opaque coat shell removed; obsolete specular-glossiness converted to modern clearcoat; quantized geometry and WebP textures at 1024 px.",
+   "read": "2026-11-11",
+   "file": "models/v12-goblin.glb",
+   "tris": 32934,
+   "tris_source": 65703,
+   "size_m": [
+    0.229,
+    0.122,
+    0.479
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 981992,
+   "inline_kb": 1279,
+   "tex": 1024,
+   "tags": [
+    "car",
+    "racing",
+    "realistic"
+   ],
+   "grade": "B",
+   "use": "B: strong supercar silhouette; no interior. Four source wheel pivots; -Z forward; scale x10"
+  },
+  {
+   "id": "wedge-concept-car",
+   "kind": "model",
+   "name": "1970s wedge concept car (invented design)",
+   "source": "file",
+   "page": "https://sketchfab.com/3d-models/669ba2899b9c4c09a495620a78ef852c",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Daniel Zhabotinsky"
+   ],
+   "read": "2026-11-11",
+   "file": "models/wedge-concept-car.glb",
+   "tris": 10312,
+   "tris_source": 10312,
+   "size_m": [
+    1,
+    0.236,
+    0.513
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 512404,
+   "inline_kb": 667,
+   "tex": 1024,
+   "tags": [
+    "vehicle",
+    "car",
+    "racing"
+   ],
+   "grade": "B",
+   "use": "Hero car for racing"
+  },
+  {
+   "id": "wooden_bucket_01",
+   "kind": "model",
+   "name": "Wooden Bucket 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/wooden_bucket_01",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock"
+   ],
+   "read": "2026-11-11",
+   "file": "models/wooden_bucket_01.glb",
+   "tris": 5116,
+   "tris_source": 5116,
+   "size_m": [
+    0.367,
+    0.55,
+    0.342
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 201492,
+   "inline_kb": 262,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "rural"
+   ],
+   "grade": "A",
+   "use": "Wooden bucket with handle"
+  },
+  {
+   "id": "wooden_crate_01",
+   "kind": "model",
+   "name": "Wooden Crate 01",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/wooden_crate_01",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:wooden_crate_01",
+   "credit": "\"Wooden Crate 01\" by James Ray Cock (Poly Haven, https://polyhaven.com/a/wooden_crate_01), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/wooden_crate_01.glb",
+   "tris": 6576,
+   "tris_source": 6576,
+   "size_m": [
+    0.825,
+    0.35,
+    0.409
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 220988,
+   "inline_kb": 288,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "crate",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Small lidded wooden crate"
+  },
+  {
+   "id": "wooden_crate_02",
+   "kind": "model",
+   "name": "Wooden Crate 02",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/wooden_crate_02",
+   "licence": "CC0",
+   "authors": [
+    "James Ray Cock",
+    "Jurita Burger"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:wooden_crate_02",
+   "credit": "\"Wooden Crate 02\" by James Ray Cock and Jurita Burger (Poly Haven, https://polyhaven.com/a/wooden_crate_02), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/wooden_crate_02.glb",
+   "tris": 5176,
+   "tris_source": 5176,
+   "size_m": [
+    0.529,
+    0.464,
+    1.166
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 198868,
+   "inline_kb": 259,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "crate",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Long wooden crate with rope handles"
+  },
+  {
+   "id": "wooden_military_crate",
+   "kind": "model",
+   "name": "Wooden Military Crate",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/wooden_military_crate",
+   "licence": "CC0",
+   "authors": [
+    "Prabhjinder Singh"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:wooden_military_crate",
+   "credit": "\"Wooden Military Crate\" by Prabhjinder Singh (Poly Haven, https://polyhaven.com/a/wooden_military_crate), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: packed the 1K glTF into one GLB, pivot moved to the bottom centre, credit added to the file, simplified LODs added.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/wooden_military_crate.glb",
+   "tris": 11995,
+   "tris_source": 22986,
+   "size_m": [
+    1.242,
+    0.465,
+    0.52
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 385544,
+   "inline_kb": 502,
+   "tex": 512,
+   "tags": [
+    "prop",
+    "military",
+    "crate",
+    "cover"
+   ],
+   "grade": "A",
+   "use": "Long military crate, iron straps"
+  },
+  {
+   "id": "wooden-crate-e46521",
+   "kind": "model",
+   "name": "Wooden Crate",
+   "source": "patch",
+   "page": "https://polyfork.dev/asset/wooden-crate-e46521",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "Polyfork"
+   ],
+   "upstream": "Polyfork",
+   "patch_id": "polyfork:wooden-crate-e46521",
+   "credit": "Wooden Crate by Polyfork (https://polyfork.dev/asset/wooden-crate-e46521), CC BY 4.0. Licence: https://creativecommons.org/licenses/by/4.0/. Changed by Patch: a compressed preview copy added for the viewer (web and src are as published).",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "models/wooden-crate-e46521.glb",
+   "tris": 308,
+   "tris_source": 308,
+   "size_m": [
+    0.6,
+    0.6,
+    0.6
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 17428,
+   "inline_kb": 23,
+   "tex": 512,
+   "tags": [
+    "stylised",
+    "prop",
+    "polyfork"
+   ],
+   "grade": "B",
+   "use": "Polyfork low-poly crate, vertex colour (CC-BY)"
+  },
+  {
+   "id": "zombie-gaunt",
+   "kind": "model",
+   "name": "Gaunt zombie, rigged, 10 clips",
+   "source": "file",
+   "page": "https://sketchfab.com/3d-models/73ef58af341e46afba1da53366ed79cf",
+   "licence": "CC-BY-4.0",
+   "authors": [
+    "pxltiger"
+   ],
+   "read": "2026-11-11",
+   "file": "models/zombie-gaunt.glb",
+   "tris": 4824,
+   "tris_source": 4824,
+   "size_m": [
+    0.796,
+    1,
+    0.178
+   ],
+   "origin": "centred, base at y=0",
+   "bytes": 1628432,
+   "inline_kb": 2120,
+   "tex": 512,
+   "tags": [
+    "character",
+    "enemy",
+    "zombie",
+    "horror"
+   ],
+   "grade": "B",
+   "use": "Realistic zombie with its own idle, walk, run, attack and two falls"
+  },
+  {
+   "id": "belfast_sunset",
+   "kind": "sky",
+   "name": "Belfast Sunset",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/belfast_sunset",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Dimitrios Savva"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:belfast_sunset",
+   "credit": "\"Belfast Sunset\" by Greg Zaal and Dimitrios Savva (Poly Haven, https://polyhaven.com/a/belfast_sunset), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K HDR selected, tonemapped JPEG background added, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "skies/belfast_sunset.webp",
+   "env_file": "skies/belfast_sunset.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.4311,
+   "sun": {
+    "dir": [
+     0.795,
+     0.037,
+     0.605
+    ],
+    "color": "#ff9537",
+    "elevation_deg": 2.1
+   },
+   "bytes": 122067,
+   "inline_kb": 159,
+   "tags": [
+    "sky",
+    "sunset"
+   ],
+   "grade": "B",
+   "use": "Sunset over fields; sun 2 deg (Patch 1K: soft horizon)"
+  },
+  {
+   "id": "construction_yard",
+   "kind": "sky",
+   "name": "Construction Yard",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/construction_yard",
+   "licence": "CC0",
+   "authors": [
+    "Sergej Majboroda"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/construction_yard.webp",
+   "env_file": "skies/construction_yard.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.8902,
+   "sun": {
+    "dir": [
+     0.679,
+     0.545,
+     0.491
+    ],
+    "color": "#ffda9b",
+    "elevation_deg": 33
+   },
+   "bytes": 317913,
+   "inline_kb": 414,
+   "tags": [
+    "sky",
+    "day",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Afternoon, apartment blocks around: urban yards"
+  },
+  {
+   "id": "industrial_sunset_puresky",
+   "kind": "sky",
+   "name": "Industrial Sunset (Pure Sky)",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/industrial_sunset_puresky",
+   "licence": "CC0",
+   "authors": [
+    "Jarod Guest",
+    "Sergej Majboroda"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/industrial_sunset_puresky.webp",
+   "env_file": "skies/industrial_sunset_puresky.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.6722,
+   "sun": {
+    "dir": [
+     0.809,
+     0.061,
+     0.585
+    ],
+    "color": "#ff6a16",
+    "elevation_deg": 3.5
+   },
+   "bytes": 111800,
+   "inline_kb": 146,
+   "tags": [
+    "sky",
+    "sunset",
+    "pure"
+   ],
+   "grade": "A",
+   "use": "Hazy sunset, no ground; sun 3.5 deg"
+  },
+  {
+   "id": "kloofendal_38d_partly_cloudy_puresky",
+   "kind": "sky",
+   "name": "Kloofendal 38d Partly Cloudy (Pure Sky)",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/kloofendal_38d_partly_cloudy_puresky",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Jarod Guest"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:kloofendal_38d_partly_cloudy_puresky",
+   "credit": "\"Kloofendal 38d Partly Cloudy (Pure Sky)\" by Greg Zaal and Jarod Guest (Poly Haven, https://polyhaven.com/a/kloofendal_38d_partly_cloudy_puresky), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K HDR selected, tonemapped JPEG background added, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "skies/kloofendal_38d_partly_cloudy_puresky.webp",
+   "env_file": "skies/kloofendal_38d_partly_cloudy_puresky.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.6865,
+   "sun": {
+    "dir": [
+     0.645,
+     0.606,
+     0.466
+    ],
+    "color": "#fff4e1",
+    "elevation_deg": 37.3
+   },
+   "bytes": 99366,
+   "inline_kb": 129,
+   "tags": [
+    "sky",
+    "day",
+    "pure"
+   ],
+   "grade": "A",
+   "use": "Partly cloudy day, no ground; sun 37 deg (Patch, 1K)"
+  },
+  {
+   "id": "kloofendal_48d_partly_cloudy_puresky",
+   "kind": "sky",
+   "name": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Jarod Guest"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/kloofendal_48d_partly_cloudy_puresky.webp",
+   "env_file": "skies/kloofendal_48d_partly_cloudy_puresky.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.8757,
+   "sun": {
+    "dir": [
+     0.546,
+     0.749,
+     0.375
+    ],
+    "color": "#ffffdd",
+    "elevation_deg": 48.5
+   },
+   "bytes": 146125,
+   "inline_kb": 190,
+   "tags": [
+    "sky",
+    "day",
+    "pure"
+   ],
+   "grade": "A",
+   "use": "Clean midday sky, no ground: any outdoor level"
+  },
+  {
+   "id": "qwantani_afternoon_puresky",
+   "kind": "sky",
+   "name": "Qwantani Afternoon (Pure Sky)",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/qwantani_afternoon_puresky",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Jarod Guest"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:qwantani_afternoon_puresky",
+   "credit": "\"Qwantani Afternoon (Pure Sky)\" by Greg Zaal and Jarod Guest (Poly Haven, https://polyhaven.com/a/qwantani_afternoon_puresky), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K HDR selected, tonemapped JPEG background added, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "skies/qwantani_afternoon_puresky.webp",
+   "env_file": "skies/qwantani_afternoon_puresky.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 1.76,
+   "sun": {
+    "dir": [
+     0.607,
+     0.662,
+     0.439
+    ],
+    "color": "#fff2e2",
+    "elevation_deg": 41.5
+   },
+   "bytes": 71325,
+   "inline_kb": 93,
+   "tags": [
+    "sky",
+    "day",
+    "pure"
+   ],
+   "grade": "A",
+   "use": "Clear afternoon, no ground; sun 41 deg (Patch, 1K)"
+  },
+  {
+   "id": "qwantani_dusk_2",
+   "kind": "sky",
+   "name": "Qwantani Dusk 2",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/qwantani_dusk_2",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Jarod Guest"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/qwantani_dusk_2.webp",
+   "env_file": "skies/qwantani_dusk_2.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.3473,
+   "sun": {
+    "dir": [
+     0.779,
+     0.207,
+     0.592
+    ],
+    "color": "#ff7760",
+    "elevation_deg": 12
+   },
+   "bytes": 154818,
+   "inline_kb": 202,
+   "tags": [
+    "sky",
+    "dusk",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Dusk over grassland; sun 12 deg"
+  },
+  {
+   "id": "qwantani_late_afternoon_puresky",
+   "kind": "sky",
+   "name": "Qwantani Late Afternoon (Pure Sky)",
+   "source": "patch",
+   "page": "https://polyhaven.com/a/qwantani_late_afternoon_puresky",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Jarod Guest"
+   ],
+   "upstream": "Poly Haven",
+   "patch_id": "polyhaven:qwantani_late_afternoon_puresky",
+   "credit": "\"Qwantani Late Afternoon (Pure Sky)\" by Greg Zaal and Jarod Guest (Poly Haven, https://polyhaven.com/a/qwantani_late_afternoon_puresky), licensed CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Changed by Patch: 1K HDR selected, tonemapped JPEG background added, credit added to each file.",
+   "ai": false,
+   "read": "2026-11-11",
+   "file": "skies/qwantani_late_afternoon_puresky.webp",
+   "env_file": "skies/qwantani_late_afternoon_puresky.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.5949,
+   "sun": {
+    "dir": [
+     0.766,
+     0.325,
+     0.554
+    ],
+    "color": "#ffce92",
+    "elevation_deg": 19
+   },
+   "bytes": 73160,
+   "inline_kb": 95,
+   "tags": [
+    "sky",
+    "day",
+    "pure"
+   ],
+   "grade": "A",
+   "use": "Warm late afternoon, no ground; sun 19 deg (Patch, 1K)"
+  },
+  {
+   "id": "rooftop_night",
+   "kind": "sky",
+   "name": "Rooftop Night",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/rooftop_night",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/rooftop_night.webp",
+   "env_file": "skies/rooftop_night.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 1.796,
+   "sun": {
+    "dir": [
+     0.837,
+     0.183,
+     0.516
+    ],
+    "color": "#ffe3dc",
+    "elevation_deg": 10.5
+   },
+   "bytes": 204675,
+   "inline_kb": 267,
+   "tags": [
+    "sky",
+    "night",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Night rooftop under floodlights"
+  },
+  {
+   "id": "satara_night",
+   "kind": "sky",
+   "name": "Satara Night",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/satara_night",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/satara_night.webp",
+   "env_file": "skies/satara_night.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 4.923,
+   "sun": {
+    "dir": [
+     0.731,
+     -0.061,
+     0.679
+    ],
+    "color": "#ffcb3b",
+    "elevation_deg": -3.5
+   },
+   "bytes": 668328,
+   "inline_kb": 870,
+   "tags": [
+    "sky",
+    "night",
+    "nature"
+   ],
+   "grade": "A",
+   "use": "Night savanna, warm lamps"
+  },
+  {
+   "id": "snowy_park_01",
+   "kind": "sky",
+   "name": "Snowy Park 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/snowy_park_01",
+   "licence": "CC0",
+   "authors": [
+    "Oliksiy Yakovlyev"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/snowy_park_01.webp",
+   "env_file": "skies/snowy_park_01.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.5568,
+   "sun": {
+    "dir": [
+     0.711,
+     -0.11,
+     0.694
+    ],
+    "color": "#7da7ff",
+    "elevation_deg": -6.3
+   },
+   "bytes": 252921,
+   "inline_kb": 329,
+   "tags": [
+    "sky",
+    "winter"
+   ],
+   "grade": "A",
+   "use": "Overcast snowy park"
+  },
+  {
+   "id": "the_sky_is_on_fire",
+   "kind": "sky",
+   "name": "The Sky Is On Fire",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/the_sky_is_on_fire",
+   "licence": "CC0",
+   "authors": [
+    "Greg Zaal",
+    "Rico Cilliers"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/the_sky_is_on_fire.webp",
+   "env_file": "skies/the_sky_is_on_fire.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.7667,
+   "sun": {
+    "dir": [
+     0.48,
+     0.086,
+     0.873
+    ],
+    "color": "#ff3601",
+    "elevation_deg": 4.9
+   },
+   "bytes": 179279,
+   "inline_kb": 233,
+   "tags": [
+    "sky",
+    "sunset"
+   ],
+   "grade": "A",
+   "use": "Vivid pink-orange sunset over water; sun 5 deg"
+  },
+  {
+   "id": "urban_street_01",
+   "kind": "sky",
+   "name": "Urban Street 01",
+   "source": "polyhaven",
+   "page": "https://polyhaven.com/a/urban_street_01",
+   "licence": "CC0",
+   "authors": [
+    "Andreas Mischok"
+   ],
+   "read": "2026-11-11",
+   "file": "skies/urban_street_01.webp",
+   "env_file": "skies/urban_street_01.env",
+   "env_size": [
+    256,
+    128
+   ],
+   "bg_scale": 0.1676,
+   "sun": {
+    "dir": [
+     0.588,
+     0.749,
+     -0.305
+    ],
+    "color": "#ff6d18",
+    "elevation_deg": 48.5
+   },
+   "bytes": 350443,
+   "inline_kb": 456,
+   "tags": [
+    "sky",
+    "day",
+    "urban"
+   ],
+   "grade": "A",
+   "use": "Overcast-ish street with trees"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+  "renderer": "Blender 4.5.9 LTS, Cycles CPU, four threads, 20 samples, sequential 640x640 renders",
+  "browser_verified": false,
+  "independent_review": "pending launching conductor",
+  "models": [
+    {
+      "id": "car-concept",
+      "file": "assets/models/car-concept.glb",
+      "bytes": 1371920,
+      "triangles": 37933,
+      "sha256": "25beaf2c96f889059db45db2f133b8fa8f3326e162b6e3cfca749cf0365f320d",
+      "grade": "B",
+      "licence": "CC-BY-4.0",
+      "image": "references/audit/cars-1111/car-concept.jpg"
+    },
+    {
+      "id": "v12-goblin",
+      "file": "assets/models/v12-goblin.glb",
+      "bytes": 981992,
+      "triangles": 32934,
+      "sha256": "fe78482e86664f0f5c5ca5b067930a0e4e9bf46b6b196c1304364397e9b39374",
+      "grade": "B",
+      "licence": "CC-BY-4.0",
+      "image": "references/audit/cars-1111/v12-goblin.jpg"
+    },
+    {
+      "id": "gourami-saloon",
+      "file": "assets/models/gourami-saloon.glb",
+      "bytes": 804392,
+      "triangles": 34298,
+      "sha256": "33f4dbbeba8bd8a289b56b1aa8f383914be900b2886e342ee1d7f72018d04bda",
+      "grade": "B",
+      "licence": "CC-BY-4.0",
+      "image": "references/audit/cars-1111/gourami-saloon.jpg"
+    },
+    {
+      "id": "coupeox",
+      "file": "assets/models/coupeox.glb",
+      "bytes": 494644,
+      "triangles": 31981,
+      "sha256": "0b26ae97ce8b774c2d3bc9515229c12b75f4e3ea4c2ffac4203c6159f592ba50",
+      "grade": "B",
+      "licence": "CC-BY-4.0",
+      "image": "references/audit/cars-1111/coupeox.jpg"
+    },
+    {
+      "id": "offroad-buggy",
+      "file": "assets/models/offroad-buggy.glb",
+      "bytes": 2247288,
+      "triangles": 32473,
+      "sha256": "fa242ec1c13ef981675cd137fb56efe7353fe028ba1dd08a3fbd7fe29bca672b",
+      "grade": "B",
+      "licence": "CC-BY-4.0",
+      "image": "references/audit/cars-1111/offroad-buggy.jpg"
+    }
+  ],
+  "sheet": {
+    "file": "references/audit/cars-1111/garage-sheet.jpg",
+    "bytes": 365570,
+    "sha256": "f12d5cd4a2e85d01ec48526038d6e08df71fef81214d7ba15f4d36d055d200b6"
+  }
+}

@@ -1,0 +1,86 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #1a1712; }
+canvas#game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+#ui {
+  position: fixed; inset: 0; pointer-events: none; user-select: none; -webkit-user-select: none;
+  font-family: "Avenir Next", Avenir, "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Helvetica, system-ui, sans-serif;
+  color: #fff7ec; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased;
+  --accent: #ffc46b; --dim: rgba(255, 247, 236, 0.62); --line: rgba(255, 240, 220, 0.28);
+  text-shadow: 0 1px 2px rgba(30, 18, 8, 0.45);
+}
+#ui .label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--dim); font-weight: 600; }
+
+/* Top centre: gates, clock, lives */
+#hud-top { position: absolute; top: 18px; left: 50%; transform: translateX(-50%); display: flex; align-items: flex-end; gap: 28px; }
+#hud-top .cell { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+#hud-top .val { font-size: 20px; font-weight: 500; letter-spacing: 0.04em; }
+#hud-top .clock { font-size: 34px; font-weight: 300; letter-spacing: 0.02em; line-height: 1; }
+#hud-top .clock.low { color: #ff9a7a; }
+#hud-lives { display: flex; gap: 6px; height: 20px; align-items: center; }
+#hud-lives i { width: 16px; height: 16px; display: block; opacity: 0.95;
+  background: currentColor; color: var(--accent);
+  clip-path: polygon(50% 0, 58% 34%, 100% 52%, 100% 62%, 58% 54%, 56% 84%, 72% 94%, 72% 100%, 28% 100%, 28% 94%, 44% 84%, 42% 54%, 0 62%, 0 52%, 42% 34%); }
+#hud-lives i.gone { color: rgba(255, 247, 236, 0.22); }
+
+/* Bottom left: instruments */
+#hud-inst { position: absolute; left: 22px; bottom: 20px; display: flex; gap: 16px; align-items: flex-end; }
+#hud-inst .read { display: flex; flex-direction: column; gap: 1px; min-width: 64px; }
+#hud-inst .big { font-size: 28px; font-weight: 300; line-height: 1; }
+#hud-inst .unit { font-size: 11px; color: var(--dim); letter-spacing: 0.1em; margin-left: 3px; }
+#hud-thr { width: 4px; height: 52px; border-radius: 2px; background: rgba(255, 247, 236, 0.18); position: relative; overflow: hidden; }
+#hud-thr i { position: absolute; left: 0; right: 0; bottom: 0; background: var(--accent); }
+#hud-inst .sep { width: 1px; align-self: stretch; background: var(--line); }
+
+/* Warning and toast */
+#hud-warn { position: absolute; top: 26%; left: 50%; transform: translateX(-50%); font-size: 13px; font-weight: 700; letter-spacing: 0.4em;
+  color: #ffb08a; opacity: 0; transition: opacity 0.15s; padding: 6px 14px 6px 20px; border: 1px solid rgba(255, 176, 138, 0.6); border-radius: 3px; }
+#hud-warn.on { opacity: 1; }
+#hud-toast { position: absolute; top: 34%; left: 50%; transform: translate(-50%, 0); font-size: 13px; letter-spacing: 0.32em; font-weight: 600;
+  color: var(--accent); opacity: 0; transition: opacity 0.4s, transform 0.4s; text-transform: uppercase; }
+#hud-toast.on { opacity: 1; transform: translate(-50%, -6px); }
+
+/* Next gate marker */
+#hud-marker { position: absolute; left: 0; top: 0; width: 0; height: 0; opacity: 0; transition: opacity 0.2s; }
+#hud-marker.on { opacity: 1; }
+#hud-marker .ring { position: absolute; left: -15px; top: -15px; width: 28px; height: 28px; border: 1.5px solid var(--accent); transform: rotate(45deg); border-radius: 3px;
+  box-shadow: 0 0 10px rgba(255, 196, 107, 0.35); }
+#hud-marker .dist { position: absolute; left: 0; top: 20px; transform: translateX(-50%); font-size: 11px; letter-spacing: 0.08em; color: var(--accent); white-space: nowrap; }
+#hud-marker .arrow { display: none; position: absolute; left: -9px; top: -9px; width: 18px; height: 18px; background: var(--accent);
+  clip-path: polygon(100% 50%, 0 0, 22% 50%, 0 100%); }
+#hud-marker.edge .ring { display: none; }
+#hud-marker.edge .arrow { display: block; }
+
+#hud.hidden { display: none; }
+
+/* Title, won, lost */
+#screen { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: auto; cursor: pointer;
+  background: linear-gradient(90deg, rgba(24, 14, 8, 0.66) 0%, rgba(24, 14, 8, 0.28) 46%, rgba(24, 14, 8, 0) 70%); transition: opacity 0.35s; }
+#screen.hidden { opacity: 0; pointer-events: none; }
+#screen .card { position: absolute; left: 7vw; top: 50%; transform: translateY(-50%); max-width: 460px; }
+#screen .kicker { font-size: 11px; letter-spacing: 0.34em; color: var(--accent); font-weight: 600; text-transform: uppercase; }
+#screen h1 { margin: 10px 0 8px; font-size: clamp(38px, 6.2vw, 68px); font-weight: 300; letter-spacing: 0.01em; line-height: 0.98; }
+#screen .sub { font-size: 15px; line-height: 1.5; color: rgba(255, 247, 236, 0.84); max-width: 380px; }
+#screen .keys { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; margin: 22px 0 24px; font-size: 12.5px; color: rgba(255, 247, 236, 0.8); }
+#screen .keys b { font-weight: 600; color: #fff7ec; letter-spacing: 0.06em; }
+#screen .stats { display: flex; gap: 26px; margin: 20px 0 22px; }
+#screen .stats .big { font-size: 26px; font-weight: 300; }
+#screen .go { display: inline-block; font-size: 12px; letter-spacing: 0.3em; font-weight: 600; text-transform: uppercase;
+  padding: 11px 20px 11px 24px; border: 1px solid rgba(255, 196, 107, 0.7); color: var(--accent); border-radius: 2px; animation: pulse 2.2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+body.touch #screen .keys { display: none; }
+#screen .credits { position: absolute; left: 7vw; right: 7vw; bottom: 14px; font-size: 10px; letter-spacing: 0.04em; color: rgba(255, 247, 236, 0.5); }
+
+/* Touch controls */
+#stick-zone { position: absolute; left: 0; bottom: 0; width: 50%; height: 70%; pointer-events: auto; touch-action: none; opacity: 0; }
+body.touch #stick-zone { opacity: 1; }
+#stick-zone .stick-base { position: absolute; width: 112px; height: 112px; margin: -56px 0 0 -56px; border-radius: 50%;
+  border: 1.5px solid rgba(255, 247, 236, 0.4); background: rgba(30, 18, 8, 0.12); left: 18%; top: 62%; opacity: 0.55; }
+#stick-zone .stick-base.on { opacity: 1; }
+#stick-zone .stick-knob { position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; background: rgba(255, 247, 236, 0.75); }
+#throttle-pad { position: absolute; right: 18px; bottom: 22px; display: none; flex-direction: column; align-items: center; gap: 6px; pointer-events: auto; }
+body.touch #throttle-pad { display: flex; }
+#throttle-pad span { font-size: 10px; letter-spacing: 0.22em; color: var(--dim); }
+#throttle-pad button { width: 58px; height: 58px; border-radius: 50%; border: 1.5px solid rgba(255, 247, 236, 0.45); background: rgba(30, 18, 8, 0.18);
+  color: #fff7ec; font: 300 28px/1 inherit; touch-action: none; }
+#throttle-pad button.on { background: rgba(255, 196, 107, 0.4); }
+body.touch #hud-inst { bottom: auto; top: 18px; left: 18px; }
+#screen ~ #stick-zone { z-index: 0; }

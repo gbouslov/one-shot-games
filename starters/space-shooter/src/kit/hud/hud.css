@@ -1,0 +1,91 @@
+/* Adapted from starters/flight/src/kit/hud/hud.css: same type scale and screens, cold palette, rail-shooter readouts. */
+html, body { margin: 0; height: 100%; overflow: hidden; background: #05070c; }
+canvas#game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+#ui {
+  position: fixed; inset: 0; pointer-events: none; user-select: none; -webkit-user-select: none;
+  font-family: "Avenir Next", Avenir, "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Helvetica, system-ui, sans-serif;
+  color: #eef4ff; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased;
+  --accent: #8fd8ff; --warm: #ffb36b; --dim: rgba(226, 236, 255, 0.58); --line: rgba(200, 225, 255, 0.24);
+  text-shadow: 0 1px 2px rgba(0, 4, 12, 0.6);
+}
+#ui .label { font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--dim); font-weight: 600; }
+
+/* Top left: score */
+#hud-score { position: absolute; top: 18px; left: 22px; display: flex; flex-direction: column; gap: 1px; }
+#hud-score .big { font-size: 30px; font-weight: 300; line-height: 1; letter-spacing: 0.02em; }
+#hud-score .small { font-size: 11px; color: var(--dim); letter-spacing: 0.08em; min-height: 14px; }
+
+/* Top centre: run progress, then the target's health */
+#hud-track { position: absolute; top: 20px; left: 50%; transform: translateX(-50%); width: min(38vw, 360px); display: flex; flex-direction: column; align-items: center; gap: 6px; }
+#hud-track .bar { width: 100%; height: 2px; background: rgba(226, 236, 255, 0.16); position: relative; }
+#hud-track .bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); box-shadow: 0 0 8px rgba(143, 216, 255, 0.6); }
+#hud-track .bar i::after { content: ''; position: absolute; right: -3px; top: -3px; width: 8px; height: 8px; border-radius: 50%; background: #eef4ff; }
+#hud-track.boss .label { color: var(--warm); }
+#hud-track.boss .bar { height: 4px; }
+#hud-track.boss .bar i { background: var(--warm); box-shadow: 0 0 10px rgba(255, 179, 107, 0.7); }
+#hud-track.boss .bar i::after { display: none; }
+
+/* Bottom left: hull and boost */
+#hud-ship { position: absolute; left: 22px; bottom: 20px; width: 190px; display: flex; flex-direction: column; gap: 5px; }
+#hud-ship .row { display: flex; justify-content: space-between; align-items: baseline; }
+#hud-ship .num { font-size: 26px; font-weight: 300; line-height: 1; }
+#hud-ship .bar { height: 3px; background: rgba(226, 236, 255, 0.16); position: relative; margin-bottom: 6px; }
+#hud-ship .bar i { position: absolute; left: 0; top: 0; bottom: 0; background: #eef4ff; transition: width 0.15s; }
+#hud-ship .bar.hull.low i { background: #ff7a5c; }
+#hud-ship .bar.boost i { background: var(--accent); }
+#hud-ship .bar.boost.on i { box-shadow: 0 0 10px rgba(143, 216, 255, 0.9); }
+
+/* Reticles */
+.ret { position: absolute; left: 0; top: 0; width: 0; height: 0; opacity: 0; transition: opacity 0.2s; }
+.ret.on { opacity: 1; }
+.ret::before { content: ''; position: absolute; border: 1.5px solid var(--accent); border-radius: 2px; }
+#ret-far::before { left: -13px; top: -13px; width: 24px; height: 24px; transform: rotate(45deg); opacity: 0.95; box-shadow: 0 0 8px rgba(143, 216, 255, 0.4); }
+#ret-far::after { content: ''; position: absolute; left: -2px; top: -2px; width: 3px; height: 3px; background: var(--accent); border-radius: 50%; }
+#ret-near::before { left: -9px; top: -9px; width: 16px; height: 16px; opacity: 0.5; }
+
+/* Warning and toast */
+#hud-warn { position: absolute; top: 24%; left: 50%; transform: translateX(-50%); font-size: 12px; font-weight: 700; letter-spacing: 0.4em;
+  color: #ff9c86; opacity: 0; transition: opacity 0.15s; padding: 6px 14px 6px 20px; border: 1px solid rgba(255, 156, 134, 0.6); border-radius: 2px; text-transform: uppercase; }
+#hud-warn.on { opacity: 1; animation: blink 0.9s steps(2) infinite; }
+@keyframes blink { 50% { opacity: 0.35; } }
+#hud-toast { position: absolute; top: 31%; left: 50%; transform: translate(-50%, 0); font-size: 13px; letter-spacing: 0.34em; font-weight: 600;
+  color: var(--warm); opacity: 0; transition: opacity 0.4s, transform 0.4s; text-transform: uppercase; white-space: nowrap; }
+#hud-toast.on { opacity: 1; transform: translate(-50%, -6px); }
+
+#hud.hidden { display: none; }
+
+/* Title, won, lost */
+#screen { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: auto; cursor: pointer;
+  background: linear-gradient(90deg, rgba(2, 5, 12, 0.78) 0%, rgba(2, 5, 12, 0.36) 46%, rgba(2, 5, 12, 0) 72%); transition: opacity 0.35s; }
+#screen.hidden { opacity: 0; pointer-events: none; }
+#screen.end { animation: endIn 0.9s ease-out both; }
+@keyframes endIn { 0%, 30% { opacity: 0; } 100% { opacity: 1; } }
+#screen.end ~ #hud, #hud:has(~ #screen.end) { opacity: 0.35; }
+#screen .card { position: absolute; left: 7vw; top: 50%; transform: translateY(-50%); max-width: 470px; }
+#screen .kicker { font-size: 11px; letter-spacing: 0.36em; color: var(--warm); font-weight: 600; text-transform: uppercase; }
+#screen h1 { margin: 10px 0 8px; font-size: clamp(38px, 6.4vw, 72px); font-weight: 200; letter-spacing: 0.02em; line-height: 0.96; }
+#screen .sub { font-size: 15px; line-height: 1.5; color: rgba(238, 244, 255, 0.84); max-width: 390px; }
+#screen .keys { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; margin: 22px 0 24px; font-size: 12.5px; color: rgba(238, 244, 255, 0.8); }
+#screen .keys b { font-weight: 600; color: #eef4ff; letter-spacing: 0.06em; }
+#screen .stats { display: flex; gap: 26px; margin: 20px 0 22px; }
+#screen .stats .big { font-size: 26px; font-weight: 300; }
+#screen .go { display: inline-block; font-size: 12px; letter-spacing: 0.3em; font-weight: 600; text-transform: uppercase;
+  padding: 11px 20px 11px 24px; border: 1px solid rgba(143, 216, 255, 0.7); color: var(--accent); border-radius: 2px; animation: pulse 2.2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+body.touch #screen .keys { display: none; }
+#screen .credits { position: absolute; left: 7vw; right: 7vw; bottom: 14px; font-size: 10px; letter-spacing: 0.04em; color: rgba(238, 244, 255, 0.5); }
+
+/* Touch controls */
+#stick-zone { position: absolute; left: 0; bottom: 0; width: 50%; height: 75%; pointer-events: none; touch-action: none; opacity: 0; }
+body.touch #stick-zone { opacity: 1; pointer-events: auto; }
+#stick-zone .stick-base { position: absolute; width: 112px; height: 112px; margin: -56px 0 0 -56px; border-radius: 50%;
+  border: 1.5px solid rgba(238, 244, 255, 0.4); background: rgba(2, 5, 12, 0.18); left: 22%; top: 62%; opacity: 0.55; }
+#stick-zone .stick-base.on { opacity: 1; }
+#stick-zone .stick-knob { position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; background: rgba(238, 244, 255, 0.75); }
+#action-pad { position: absolute; right: 18px; bottom: 22px; display: none; align-items: flex-end; gap: 12px; pointer-events: auto; }
+body.touch #action-pad { display: flex; }
+#action-pad button { width: 62px; height: 62px; border-radius: 50%; border: 1.5px solid rgba(238, 244, 255, 0.45); background: rgba(2, 5, 12, 0.22);
+  color: #eef4ff; font: 600 10px/1 inherit; letter-spacing: 0.16em; text-transform: uppercase; touch-action: none; }
+#action-pad button.fire { width: 84px; height: 84px; border-color: rgba(143, 216, 255, 0.8); }
+#action-pad button.on { background: rgba(143, 216, 255, 0.35); }
+body.touch #hud-ship { bottom: auto; top: 64px; }

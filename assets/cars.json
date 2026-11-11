@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "note": "Articulation hints for assets.model(id). Scale suggestions are authored game sizes, not measured real-world dimensions. Forward is measured from named front-wheel positions where available.",
+  "cars": {
+    "car-concept": {
+      "suggestedScale": 1,
+      "forward": [0, 0, 1],
+      "steerNodes": ["WheelFrontL", "WheelFrontR"],
+      "spinNodes": ["WheelFrontLSpin", "WheelFrontRSpin", "WheelRearLSpin", "WheelRearRSpin"],
+      "axleInModelSpace": [1, 0, 0],
+      "note": "Spin groups contain rims, tyres and discs; brake pads remain in the steering assembly. Source door pivots are retained."
+    },
+    "v12-goblin": {
+      "suggestedScale": 10,
+      "forward": [0, 0, -1],
+      "steerNodes": ["bone_suspension_FL", "bone_suspension_FR"],
+      "spinNodes": ["bone_rotation_FL", "bone_rotation_FR", "bone_rotation_BL", "bone_rotation_BR"],
+      "axleInModelSpace": [1, 0, 0],
+      "note": "Source tyre/rim children and separate brake branches retained. No interior."
+    },
+    "gourami-saloon": {
+      "suggestedScale": 12.5,
+      "forward": null,
+      "steerNodes": [],
+      "spinNodes": [],
+      "note": "Car is 0.406 units long after mirror normalization; scale 12.5 gives a proposed 5.08 m saloon. Wheel material meshes combine multiple wheels."
+    },
+    "coupeox": {
+      "suggestedScale": 4.8,
+      "forward": null,
+      "steerNodes": [],
+      "spinNodes": [],
+      "note": "Long axis X; scale 4.8 gives a proposed 4.8 m concept coupe. Source objects are separated by material, not four wheel pivots."
+    },
+    "offroad-buggy": {
+      "suggestedScale": 3.2,
+      "forward": null,
+      "steerNodes": [],
+      "spinNodes": [],
+      "note": "Long axis Z; scale 3.2 gives a proposed 3.2 m buggy. All four tyres share 1 BAN; do not rotate that mesh as one wheel."
+    }
+  }
+}

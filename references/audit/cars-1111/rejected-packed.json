@@ -1,0 +1,126 @@
+[
+  {
+    "id": "bryan-car-candidate",
+    "kind": "model",
+    "name": "bryan-car-candidate",
+    "source": "objaverse-clean",
+    "page": "https://sketchfab.com/3d-models/e2a25f0ddf884e1e933d09eeaa16c8f9",
+    "licence": "CC-BY-4.0",
+    "authors": [
+      "Bryan"
+    ],
+    "read": "2026-11-11",
+    "file": "models/bryan-car-candidate.glb",
+    "tris": 31994,
+    "tris_source": 46444,
+    "size_m": [
+      0.437,
+      0.359,
+      1
+    ],
+    "origin": "centred, base at y=0",
+    "bytes": 621036,
+    "inline_kb": 809,
+    "tex": 1024,
+    "tags": [
+      "car",
+      "racing",
+      "candidate"
+    ],
+    "grade": "B",
+    "use": "Candidate; rendered selection pending"
+  },
+  {
+    "id": "car-scan-candidate",
+    "kind": "model",
+    "name": "car-scan-candidate",
+    "source": "objaverse-clean",
+    "page": "https://sketchfab.com/3d-models/6695d36a706846f09df1066daabeb9b7",
+    "licence": "CC-BY-4.0",
+    "authors": [
+      "OlegYurkov"
+    ],
+    "read": "2026-11-11",
+    "file": "models/car-scan-candidate.glb",
+    "tris": 23202,
+    "tris_source": 23202,
+    "size_m": [
+      0.928,
+      0.406,
+      1
+    ],
+    "origin": "centred, base at y=0",
+    "bytes": 415188,
+    "inline_kb": 541,
+    "tex": 1024,
+    "tags": [
+      "car",
+      "racing",
+      "candidate"
+    ],
+    "grade": "B",
+    "use": "Candidate; rendered selection pending"
+  },
+  {
+    "id": "fancy-car",
+    "kind": "model",
+    "name": "fancy-car",
+    "source": "objaverse-clean",
+    "page": "https://sketchfab.com/3d-models/780c75b7713b4811b0f7b447df310889",
+    "licence": "CC-BY-4.0",
+    "authors": [
+      "rajibkc"
+    ],
+    "read": "2026-11-11",
+    "file": "models/fancy-car.glb",
+    "tris": 7004,
+    "tris_source": 7004,
+    "size_m": [
+      1,
+      0.378,
+      0.387
+    ],
+    "origin": "centred, base at y=0",
+    "bytes": 363076,
+    "inline_kb": 473,
+    "tex": 1024,
+    "tags": [
+      "car",
+      "racing",
+      "candidate"
+    ],
+    "grade": "B",
+    "use": "Candidate; rendered selection pending"
+  },
+  {
+    "id": "generic-race-car",
+    "kind": "model",
+    "name": "generic-race-car",
+    "source": "objaverse-clean",
+    "page": "https://sketchfab.com/3d-models/96909aba3ea249adb9044b0449e39379",
+    "licence": "CC-BY-4.0",
+    "authors": [
+      "Willy Decarpentrie"
+    ],
+    "read": "2026-11-11",
+    "file": "models/generic-race-car.glb",
+    "tris": 22307,
+    "tris_source": 22307,
+    "size_m": [
+      0.475,
+      0.298,
+      1
+    ],
+    "origin": "centred, base at y=0",
+    "bytes": 1236648,
+    "inline_kb": 1610,
+    "tex": 1024,
+    "tags": [
+      "car",
+      "racing",
+      "candidate"
+    ],
+    "grade": "B",
+    "use": "Candidate; rendered selection pending"
+  }
+]

@@ -1,0 +1,47 @@
+node_modules/
+dist/
+.vite/
+# Everything a run generates: screenshots, video, reports.
+**/playtest/
+**/shots/
+**/capture/
+**/video/
+*.log
+.DS_Store
+# Cloned sources read during audits; never committed.
+.scratch/
+# Audit evidence is committed as small JPEGs; full-size PNG captures stay local.
+references/audit/**/*.png
+!references/audit/side-by-side.png
+!references/audit/assets-side-by-side.png
+# Raw asset downloads for the asset library; only compressed picks in assets/ are committed.
+.asset-cache/
+!references/audit/arms-side-by-side.png
+!references/audit/bare-arms-side-by-side.png
+# A person's own earlier run, and screenshots of removed gallery entries and
+# sources that show other companies' characters, stay local.
+references/audit/caveman-v1-*
+references/audit/gallery/*
+!references/audit/gallery/02-*
+!references/audit/gallery/06-*
+!references/audit/gallery/10-*
+!references/audit/gallery/13-*
+!references/audit/gallery/17-*
+!references/audit/gallery/22-*
+!references/audit/gallery/23-*
+!references/audit/gallery/25-*
+!references/audit/gallery/26-*
+!references/audit/gallery/28-*
+!references/audit/gallery/29-*
+!references/audit/gallery/38-*
+!references/audit/gallery/46-*
+!references/audit/gallery/48-*
+!references/audit/gallery/51-*
+!references/audit/gallery/54-*
+!references/audit/gallery/69-*
+!references/audit/gallery/71-*
+!references/audit/gallery/73-*
+!references/audit/gallery/74-*
+!references/audit/gallery/85-*
+references/audit/genres/sandbox--voxelcraft*
+references/audit/genres/racing--javascript-racer*

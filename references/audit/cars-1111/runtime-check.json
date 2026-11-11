@@ -1,0 +1,72 @@
+{
+  "kind": "Node library parse; CPU bitmap decode; no WebGL",
+  "images": 56,
+  "models": [
+    {
+      "id": "car-concept",
+      "size_m": [
+        2.7105262106044474,
+        1.299679757453629,
+        4.357177775676416
+      ],
+      "actual_scene_tris": 37933,
+      "wheel_groups_checked": [
+        "WheelFrontLSpin",
+        "WheelFrontRSpin",
+        "WheelRearLSpin",
+        "WheelRearRSpin"
+      ],
+      "sha256": "25beaf2c96f889059db45db2f133b8fa8f3326e162b6e3cfca749cf0365f320d"
+    },
+    {
+      "id": "v12-goblin",
+      "size_m": [
+        0.22918286828671613,
+        0.12221091738650317,
+        0.478691512568579
+      ],
+      "actual_scene_tris": 32934,
+      "wheel_groups_checked": [
+        "bone_rotation_FL",
+        "bone_rotation_FR",
+        "bone_rotation_BL",
+        "bone_rotation_BR"
+      ],
+      "sha256": "fe78482e86664f0f5c5ca5b067930a0e4e9bf46b6b196c1304364397e9b39374"
+    },
+    {
+      "id": "gourami-saloon",
+      "size_m": [
+        0.15404673324018123,
+        0.10782889881238701,
+        0.40549574602338434
+      ],
+      "actual_scene_tris": 34298,
+      "wheel_groups_checked": [],
+      "sha256": "33f4dbbeba8bd8a289b56b1aa8f383914be900b2886e342ee1d7f72018d04bda"
+    },
+    {
+      "id": "coupeox",
+      "size_m": [
+        1,
+        0.2695096616119032,
+        0.5054447383955271
+      ],
+      "actual_scene_tris": 31981,
+      "wheel_groups_checked": [],
+      "sha256": "0b26ae97ce8b774c2d3bc9515229c12b75f4e3ea4c2ffac4203c6159f592ba50"
+    },
+    {
+      "id": "offroad-buggy",
+      "size_m": [
+        0.48561272890383567,
+        0.36661963150534876,
+        1.0000000198467203
+      ],
+      "actual_scene_tris": 32473,
+      "wheel_groups_checked": [],
+      "sha256": "fa242ec1c13ef981675cd137fb56efe7353fe028ba1dd08a3fbd7fe29bca672b"
+    }
+  ],
+  "credits": "Assets: Car Concept by Eric Chadwick / Darmstadt Graphics Group GmbH, https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: logos removed; paint flake normals removed; wheel spin groups added; windshield wipers omitted; triangle budget weighted toward exterior panels; quantized geometry and WebP textures at 1024 px.; Fictional supercar - V12 Goblin by ollitei, https://sketchfab.com/3d-models/0a20e49ad5774d778567cb5c3f345786, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: display shadow and opaque coat shell removed; obsolete specular-glossiness converted to modern clearcoat; quantized geometry and WebP textures at 1024 px.; Gourami - Luxury Saloon by Fishboe, https://sketchfab.com/3d-models/bf29aca039c447ab913608e3f6818875, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: display floor removed; quantized geometry and WebP textures at 1024 px.; Coupeox futuristic vehicle by koleos3d, https://sketchfab.com/3d-models/f4eeef5af2804647b933207303461e84, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: mesh simplified; quantized geometry and WebP textures at 1024 px.; Buggy 2 by Rzyas, https://sketchfab.com/3d-models/983dc960e4c34a2688456b3c31821cd9, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified by One-Shot Games: mesh simplified; quantized geometry and WebP textures at 1024 px."
+}
