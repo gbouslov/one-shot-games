@@ -13,7 +13,7 @@
 | [Tidebreaker](https://tidebreaker.vercel.app) | Claude Opus 5.5 | [@chongdashu](https://x.com/chongdashu/status/2109452512160039063) | not shared |
 | [Skyhold](http://skyhold-ten.vercel.app) | Claude Opus 5.5 | [@0xbobaaa](https://x.com/0xbobaaa/status/2108495368585371666) | not shared |
 
-[80 playable games](gallery/README.md) · [22 prompts that worked, with what they cost](prompts/README.md)
+[23 playable games, graded](gallery/README.md) · [10 prompts that worked, with what they cost](prompts/README.md)
 
 ## Build yours
 
