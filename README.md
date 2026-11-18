@@ -18,7 +18,7 @@
 ## Play more, or get the full kit
 
 - **Play games made with it:** [claudecodegames.com](https://claudecodegames.com). Free browser games made with AI coding agents. They play on the page, with no download and no account.
-- **Get the full kit:** [claudegamestudio.com](https://claudegamestudio.com). A Claude Code plugin with 10 tested starters, 123 models, 43 materials and 13 skies, for $29 a year. It also has free tools: a pixel art maker, a game idea generator and a design document template.
+- **Get the full kit:** [claudegamestudio.com](https://claudegamestudio.com). A Claude Code plugin with 10 tested starters and the whole asset library: realistic guns and melee weapons, rigged characters with their animations, every asset added from now on, and a search across about 78,000 free-licence models, materials, skies and sounds. $29 a year. This repo carries a free sampler of the library: 51 props and vehicles, 27 materials, 13 skies, effects and music.
 
 ## Build yours
 
